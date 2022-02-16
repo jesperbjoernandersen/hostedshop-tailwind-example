@@ -13,10 +13,13 @@ const excludeFromDist = [
 const allowInPackageJson = ['name', 'version', 'description', 'keywords', 'author', 'license'];
 
 module.exports = grunt => {
-
     //
     // Use node-sass as scss compiler
     const sass = require("sass");
+
+    //
+    // Get Tailwind configuration
+    const tailwindConfig = require('./tailwind.config');
 
 
     //
@@ -48,8 +51,7 @@ module.exports = grunt => {
             postcss: {
                 files: [
                     'source/css/tailwind.css',
-                    'modules/**/*.{html,tpl}',
-                    'partials/**/*.{html,tpl}'
+                    ...tailwindConfig.content
                 ],
                 tasks: 'postcss'
             }
@@ -60,7 +62,7 @@ module.exports = grunt => {
         postcss: {
             options: {
                 processors: [
-                    require('tailwindcss')('tailwind.config.js'),
+                    require('tailwindcss')(tailwindConfig),
                     require('autoprefixer')({ overrideBrowserslist: 'last 2 versions' }) // add vendor prefixes
                 ]
             },
