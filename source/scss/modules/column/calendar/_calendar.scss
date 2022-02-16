@@ -1,0 +1,40 @@
+/*
+# Description
+
+## Date last modified
+
+*/
+.b-calendar {
+    &.panel-border {
+        background: transparent;
+    }
+    .b-calendar-list {
+        margin: 0;
+    }
+    .month-header,
+    .event{
+        padding: 0.5em;
+    }
+    .event{
+        border: none;
+    }
+    .event > article {
+        overflow: auto;
+    }
+    .description-col,
+    .date-col {
+        padding-left: 5px;
+        float: left;
+    }
+    .description-col{
+        width: 70%;
+    }
+    .date-col {
+        width: 30%;
+    }
+    .day,
+    .date {
+        margin: 0;
+        text-transform: uppercase;    
+    }
+}

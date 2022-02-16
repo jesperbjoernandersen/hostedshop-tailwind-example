@@ -1,0 +1,25 @@
+.rzslider.rzslider {
+
+    .rz-bar {
+        background: dolp($button-primary-background-color, 40%);
+    }
+    .rz-selection {
+        background: $button-primary-background-color;
+    }
+
+    .rz-pointer {
+       background-color: dolp($font-color-primary, 5%);
+    }
+
+    .rz-limit {
+        color: $font-color-primary;
+    }
+
+    .rz-tick {
+        background: dolp($button-primary-background-color, 40%);
+    }
+
+    .rz-tick.rz-selected {
+        background: $button-primary-background-color;
+    }
+}

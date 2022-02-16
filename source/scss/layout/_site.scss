@@ -1,0 +1,177 @@
+// ==========================================================================
+// Site
+// ==========================================================================
+
+.site-header {
+    padding: 1.5em 0;
+}
+
+.logo {
+    a {
+        display: block;
+
+        &:focus:active {
+            outline: none;
+        }
+    }
+
+    img {
+        margin: 0;
+        display: block;
+    }
+}
+
+.site-corporate {
+    padding: 0.5em 0;
+}
+
+.site-navigation {
+    padding: 1em 0;
+
+    .item-primary,
+    .m-quick-cart > .dropdown > a {
+        font-size: 16px;
+    }
+}
+
+.container {
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+}
+
+.site-slider {}
+
+.site-content {
+    position: relative;
+
+    > .container {
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+    }
+}
+
+.site-footer {
+    padding: 3em 0;
+
+    .footer-paymenticons img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+}
+
+.column .column-module-text img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.site-main-content {
+    padding-bottom: 2em;
+}
+
+.page-title {
+    margin: 0 0 0.95em;
+    padding: 0 0 1em;
+    border-bottom: 1px solid transparent;
+
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        &:first-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.page-title-frontpage {
+    margin: 0 0 0.95em;
+    padding: 1em 0;
+    text-align: center;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+.text-body {
+    margin-bottom: 1em;
+}
+
+.dropdown-container .media-item,
+.quick-cart-expanded-total {
+    font-size: 0.95em;
+}
+
+img.responsive {
+    width: auto !important;
+    height: auto !important;
+
+    &:active {
+        outline: none;
+    }
+}
+
+.button, .button-primary, .button-text {
+    -webkit-background-clip: initial;
+    -moz-background-clip: initial;
+    background-clip: initial;
+}
+
+//
+// LazyLoad
+//
+:not(.ielt9) .placeholder-wrapper {
+    width: 100%;
+    box-sizing: content-box;
+    position: relative;
+    height: auto;
+    display: inline-block;
+}
+:not(.ielt9) .placeholder-wrapper > .placeholder {
+    display: block;
+    width: 100%;
+    padding-top: 100%;
+}
+:not(.ielt9) .placeholder-wrapper > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.ielt9 .lazyOwl,
+.ielt9 .lazyload {
+    display: none !important;
+}
+.lazyload,
+.lazyloading,
+.lazyloaded {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+img.lazyloaded {
+    opacity: 1;
+}
+
+//
+// touch screens: avoid zoom on inputs
+//
+html.touch {
+    .form-input,
+    .form-input.input-group-main {
+        font-size: 16px;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        &.form-select {
+            padding: 0 0.5em;
+        }
+    }
+}

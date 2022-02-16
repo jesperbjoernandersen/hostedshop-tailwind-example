@@ -1,0 +1,59 @@
+/*
+# Description
+
+## Date last modified
+
+*/
+@import "product-categories-entity";
+@import "product-list-entity-item";
+@import "partials/_entity-variant-orderlist-dropdown.scss";
+@import "partials/_entity-variant-button.scss";
+@import "partials/_thumbelina.scss";
+@import "partials/_list-js-filter";
+@import "partials/_list-js-sortbar";
+
+
+%splash {
+	position: absolute;
+	left: 1em;
+	top: 1em;
+	z-index: 99;
+}
+
+.m-productlist,
+.m-product {
+
+	.splash {
+		@extend %splash;
+	}
+}
+
+.m-product-information {
+	margin-bottom: 1em;
+
+	.m-wishlist {
+		margin-top: 1em;
+	}
+}
+
+// ==========================================================================
+// Module: Product reviews
+// ==========================================================================
+
+.m-reviews-quick-review {
+	margin-bottom: 1em;
+}
+
+// ==========================================================================
+// Module: Product
+// ==========================================================================
+
+.m-product {
+	.image {
+		position: relative;
+	}
+}
+
+.fb_iframe_widget.fb-like iframe {
+	width: auto !important; 
+}

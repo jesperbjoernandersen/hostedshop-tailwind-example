@@ -1,0 +1,35 @@
+.rzslider {
+
+    .rz-bar {
+        height: 2px;
+    }
+
+    .rz-pointer {
+        width: 8px;
+        height: 16px;
+        top: auto; /* to remove the default positioning */
+        bottom: 0;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+
+        &:after {
+            display: none;
+        }
+    }
+
+    .rz-bubble {
+        bottom: 14px;
+    }
+
+    .rz-limit {
+        font-weight: bold;
+    }
+
+    .rz-tick {
+        width: 1px;
+        height: 10px;
+        margin-left: 4px;
+        border-radius: 0;
+        top: -1px;
+    }
+}

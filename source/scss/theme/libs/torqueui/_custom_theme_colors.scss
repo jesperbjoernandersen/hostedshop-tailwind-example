@@ -1,0 +1,125 @@
+// ==========================================================================
+// DROPDOWN
+// ==========================================================================
+
+.dropdown-container {
+    border-color: $design-border-color;
+
+    .divider,
+    .dropdown-header,
+    .dropdown-body,
+    .dropdown-footer {
+        border-color: $design-border-color;
+    }
+}
+
+$itemPrimaryActive: saturate(darken($design-navigation-font-color, 20%), 10%);
+
+.site-navigation {
+
+    .nav-default,
+    .nav-menu {
+
+        > li {
+            &.active {
+                background-color: dolp($design-navigation-background-color, 10%);
+            }
+        }
+        li {
+            a {
+                color: $design-navigation-font-color;
+                &:hover {
+                    color: dolp($design-navigation-font-color, 15%);
+                }
+            }
+
+            li {
+                &.active {
+                    background-color: dolp($design-navigation-background-color, 20%);
+                    > a {
+                        color: $itemPrimaryActive;
+                    }
+                }
+            }
+        }
+
+        @media screen and (min-width: 960px) {
+
+            > li {
+                &.active {
+                    background: transparent;
+                    a.item-primary {
+                        @include box-shadow(0, -3px, 0, $itemPrimaryActive, inset);
+                    }
+                }
+            }
+        }
+
+        .dropdown-container {
+
+            a {
+                color: $design-navigation-font-color;
+                &:hover {
+                    color: dolp($design-navigation-font-color, 8%);
+                }
+            }
+            .dropdown-container {
+                a {
+                    color: dolp($design-navigation-font-color, 8%);
+                    &:hover {
+                        color: dolp($design-navigation-font-color, 16%);
+                    }
+                }
+                .dropdown-container {
+                    a {
+                        color: dolp($design-navigation-font-color, 16%);
+                        &:hover {
+                            color: dolp($design-navigation-font-color, 24%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .dropdown-container {
+        background-color: dolp($design-navigation-background-color, 10%);
+        color: $design-navigation-font-color;
+
+        @media screen and (min-width: 960px) {
+            border-color: dolp($design-navigation-background-color, 20%);
+        }
+
+        .dropdown-header {
+            background-color: dolp($design-navigation-background-color, 15%);
+        }
+
+        li {
+            &.active {
+                background-color: dolp($design-navigation-background-color, 15%);
+            }
+        }
+
+        .divider,
+        .dropdown-header,
+        .dropdown-body,
+        .dropdown-footer,
+        hr {
+            border-color: dolp($design-navigation-background-color, 20%);
+        }
+    }
+
+    .t-striped {
+        > li:nth-child(odd) {
+            background-color: dolp($design-navigation-background-color, 10%);
+        }
+    }
+
+    .marker {
+        color: dolp($design-navigation-background-color, 20%);
+        .fa-border {
+            border-color: dolp($design-navigation-background-color, 15%);
+        }
+    }
+}
+

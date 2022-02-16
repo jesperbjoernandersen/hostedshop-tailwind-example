@@ -1,0 +1,94 @@
+/*
+# Description
+
+## Date last modified
+
+*/
+
+
+%list-spacing-bottom {
+	.list-unstyled {
+		> li {
+			margin: 0 0 1em;
+		}
+	}
+}
+
+%list-padding {
+	.t-striped,
+	.t-border-bottom {
+		> li {
+			padding: 1em 1em 1em 1em;
+		}
+	}
+}
+
+%image-no-margin {
+	img {
+		margin: 0;
+	}
+}
+
+
+@import "blog/blog";
+@import "calendar/calendar";
+@import "cart/cart";
+@import "checkout/checkout";
+@import "contact/contact";
+@import "form/form";
+@import "forum/forum";
+@import "gallery/gallery";
+@import "news/news";
+@import "newsletter/newsletter";
+@import "notfound/notfound";
+@import "poll/poll";
+@import "product/product";
+@import "search/search";
+@import "sendtoafriend/sendtoafriend";
+@import "sitemap/sitemap";
+@import "text/text";
+@import "usercreate/usercreate";
+@import "useredit/useredit";
+@import "useremailupdate/useremailupdate";
+@import "userlogin/userlogin";
+@import "userorders/userorders";
+@import "userpasswordrecover/userpasswordrecover";
+@import "userpasswordupdate/userpasswordupdate";
+@import "userrequest/userrequest";
+
+// ==========================================================================
+// Modules
+// ==========================================================================
+
+.m-breadcrumb,
+.m-print {
+	margin: 1.5em 0 0;
+	font-size: .85em;
+}
+
+//
+// Module lists, news, blog, product-package, cart & order-form
+//
+.m-forum {
+	@extend %list-spacing-bottom;
+	.list-unstyled {
+		> li {
+			margin: 0 0 1em;
+		}
+	}
+}
+
+.m-product-package,
+.m-cart,
+.m-order-form,
+.m-product-additionals,
+.m-options,
+.m-product-packet,
+.m-order,
+.m-wishlist,
+.m-user-orders,
+.m-top-products,
+.m-my-orders,
+.m-calendar-list {
+	@extend %list-padding;
+}

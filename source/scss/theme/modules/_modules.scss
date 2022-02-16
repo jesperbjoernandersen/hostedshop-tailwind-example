@@ -1,0 +1,10 @@
+.m-breadcrumb,
+.m-print {
+	a {
+		color: $font-color-primary;
+
+		&:hover {
+			color: dolp($font-color-primary, 15%);
+		}
+	}
+}

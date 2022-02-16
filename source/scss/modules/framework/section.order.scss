@@ -1,0 +1,66 @@
+/*
+# Description
+Style for order line
+
+## Date last modified
+24.09.2018
+
+*/
+
+
+.order-line:nth-child(odd) {
+    background-color: map-get($map: $colors, $key: 100);
+}
+
+.order-header__table {
+    border-bottom: 1px solid map-get($map: $colors, $key: 100);
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.order-header__table--has-price,
+.order-line__table--has-price {
+    .order-header__table--product,
+    .order-line__table--product {
+        width: 30%;
+    }
+    .order-header__table--note,
+    .order-line__table--note {
+        width: 25%;
+    }
+    .order-header__table--price,
+    .order-line__table--price {
+        width: 18%;
+    }
+    .order-header__table--count,
+    .order-line__table--count {
+        width: 9%;
+    }
+    .order-header__table--total,
+    .order-line__table--total {
+        width: 18%;
+    }
+}
+.order-header__table--product,
+.order-line__table--product {
+    width: 40%;
+}
+.order-header__table--note,
+.order-line__table--note {
+    width: 40%;
+}
+.order-header__table--price,
+.order-line__table--price {
+    width: 10%;
+}
+.order-header__table--count,
+.order-line__table--count {
+    width: 10%;
+}
+
+.order-line,
+.order-footer {
+    page-break-inside: avoid;
+}
+
+.order-line__title { }
+.order-footer { }

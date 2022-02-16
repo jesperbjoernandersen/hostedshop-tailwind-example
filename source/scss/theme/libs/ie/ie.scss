@@ -1,0 +1,12 @@
+.ie7 {
+    .navbar-collapse,
+    .navbar-collapse.is-collapsed {
+        .nav {
+            > li {
+                .marker {
+                    border-top-color: dolp($design-navigation-background-color, 20%);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "TEMPLATE_AUTHOR": "System",
+    "TEMPLATE_DATE": "February 2019",
+    "TEMPLATE_NAME": {
+        "TITLE": {
+            "DK": "Standardindhold",
+            "UK": "Standard content",
+            "NO": "Standardinnhold",
+            "SE": "Standardinnehåll"
+        }
+    },
+    "TEMPLATE_DESCRIPTION": {
+        "TITLE": {
+            "DK": "Denne e-mail template vil kun vise indholdet fra e-mailen.",
+            "UK": "This email template will only display the main content.",
+            "NO": "Denne e-postmalen viser bare hovedinnholdet.",
+            "SE": "Den här e-postmallen visar bara huvudinnehållet."
+        }
+    },
+    "TEMPLATE_CONTEXT": "",
+    "TEMPLATE_VERSION": "Version 1.0"
+}

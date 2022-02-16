@@ -1,0 +1,2 @@
+.ck-content > :first-child { margin-top: 0 !important; }
+.ck-content > :last-child { margin-bottom: 0 !important; }

@@ -1,0 +1,145 @@
+/*
+    Thumbelina Content Slider
+    V1.0 Rev 1302190900
+
+    A lightweight horizontal and vertical content slider designed for image thumbnails.
+    http://www.starplugins.com/thumbelina
+
+    Developed by Star Plugins
+    http://www.starplugins.com
+
+    Copyright 2013, Star Plugins
+    License: GNU General Public License, version 3 (GPL-3.0)
+    http://www.opensource.org/licenses/gpl-3.0.html
+*/
+
+
+.thumbelina-wrapper {
+    margin: 0 42px 1em 42px;
+
+    @include to(2) {
+        &--pagination-is-hidden-s {
+            margin: 0 0 1em 0;
+            .thumbelina-but { display: none; }
+        }
+    }
+    @include at(3) {
+        &--pagination-is-hidden-m {
+            margin: 0 0 1em 0;
+            .thumbelina-but { display: none; }
+        }
+    }
+    @include at(4) {
+        &--pagination-is-hidden-l {
+            margin: 0 0 1em 0;
+            .thumbelina-but { display: none; }
+        }
+    }
+    @include from(5) {
+        &--pagination-is-hidden-xl {
+            margin: 0 0 1em 0;
+            .thumbelina-but { display: none; }
+        }
+    }
+}
+
+/*
+    This style will be applied to the first list element (UL tag)
+    inside the container.
+    ### This should not require changing ###
+*/
+.thumbelina {
+    list-style:none;
+    padding:0;
+    margin:0;
+    position:absolute;
+    white-space:nowrap;
+    /* font-size:0 stop gaps between display-inline li elemets */
+    /* Either do this, or remove all white space in HTML beween li elements */
+    font-size:0;
+
+    /* prevent annoying iPad cut/paste actions */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+
+/* Style for the list items that surround the thumbnails */
+.thumbelina li {
+   padding: 0;
+   line-height: 0;
+   margin: 0;
+   cursor:pointer;
+}
+
+
+/*
+    Following is the CSS for the navigation buttons.
+    They are designed to fit flush on the ends of the slider
+    using absolute positioning, with the container as the parent element.
+    The sizes are set to match the demo slider.
+    You can change any of this as you wish - you don't even need to use these classes.
+    Position the buttons where you like on the page, change sizes, use images etc.
+    They don't have to be children of the container.
+*/
+
+/* Common style for the buttons */
+.thumbelina-but {
+    position:absolute;
+
+    z-index: 1;
+    cursor:pointer;
+
+    /* Font related items for the symbols used on buttons */
+    /* Obviously not needed if you're just using images */
+
+    text-align:center;
+    vertical-align:middle;
+    font-size:14px;
+    font-weight: bold;
+    font-family:monospace;
+}
+
+/* Disabled style when button is not active due to extents being reached. */
+/* You could do other things e.g. make buttons dissapear completely. */
+.thumbelina-but.disabled,
+.thumbelina-but.disabled:hover {
+    cursor:default;
+    box-shadow:none;
+}
+
+/* Horizontal buttons. */
+.thumbelina-but.horiz {
+    width: 37px;
+    height: 62px;
+    line-height: 62px;
+}
+/* Left edge button. */
+.thumbelina-but.horiz.left {
+    left:-42px;
+    border-radius: 3px 0px 0px 3px;
+}
+/* Right edge button */
+.thumbelina-but.horiz.right {
+    right:-42px;
+    border-radius: 0px 3px 3px 0px;
+}
+
+/* Vertical buttons. */
+.thumbelina-but.vert {
+    left:-1px;
+    height: 20px;
+    line-height: 20px;
+    width:93px
+}
+
+/* Top edge button. */
+.thumbelina-but.vert.top {
+    top:-22px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+/* Bottom edge button. */
+.thumbelina-but.vert.bottom {
+    bottom:-22px;
+    border-radius: 0px 0px 5px 5px;
+}

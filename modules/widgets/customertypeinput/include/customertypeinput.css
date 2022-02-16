@@ -1,0 +1,24 @@
+.w-customer-type-input > .button-group {
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25em;
+    align-content: stretch;
+}
+
+.w-customer-type-input > .button-group:before,
+.w-customer-type-input > .button-group:after {
+    content: none;
+}
+
+.w-customer-type-input > .button-group > .button,
+.w-customer-type-input > .button-group > .button-primary {
+    position: relative;
+    flex: 1;
+    width: 100%;
+}
+
+.w-customer-type-input > .button-group > .button > input,
+.w-customer-type-input > .button-group > .button-primary > input {
+    display: none;
+}

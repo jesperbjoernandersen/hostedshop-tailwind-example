@@ -1,0 +1,27 @@
+{
+    "PRESET_TITLE": "White",
+    "SETTINGS": {
+			"DESIGN_HEADER_BACKGROUND_COLOR": "#ffffff",
+			"DESIGN_NAVIGATION_BACKGROUND_COLOR": "#ffffff",
+			"DESIGN_NAVIGATION_FONT_COLOR": "#464646",
+			"DESIGN_BODY_BACKGROUND_COLOR": "#ffffff",
+			"DESIGN_WRAPPER_BACKGROUND_COLOR": "",
+			"DESIGN_FOOTER_BACKGROUND_COLOR": "#ffffff",
+			"DESIGN_BOX_BACKGROUND_COLOR": "#f5f5f5",
+			"DESIGN_BORDER_COLOR": "#eeeeee",
+			"FONT_COLOR_PRIMARY": "#777777",
+			"FONT_COLOR_HEADLINE": "#333333",
+			"FONT_COLOR_LINK": "#4a4a4a",
+			"BUTTON_PRIMARY_BACKGROUND_COLOR": "#2f2f2f",
+			"BUTTON_PRIMARY_FONT_COLOR": "#ffffff",
+			"BUTTON_DEFAULT_BACKGROUND_COLOR": "#f5f5f5",
+			"BUTTON_DEFAULT_FONT_COLOR": "#6c6c6c",
+			"PANEL_CALLOUT_COLOR": "#dff1d9",
+			"PANEL_WARNING_COLOR": "#caeef7",
+			"PANEL_DANGER_COLOR": "#ebccd1",
+			"MODULE_RATING_COLOR": "#ffcc00",
+			"FONT_FAMILY_BASE": "'Karla', |https://fonts.googleapis.com/css?family=Karla:400,700&display=swap",
+			"FONT_FAMILY_HEADLINE": "'Oswald', sans-serif|https://fonts.googleapis.com/css?family=Oswald:300,700&display=swap",
+			"LOGO_COLOR": "#333333"
+    }
+}

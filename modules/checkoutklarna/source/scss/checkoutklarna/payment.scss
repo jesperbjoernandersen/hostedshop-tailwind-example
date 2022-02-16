@@ -1,0 +1,16 @@
+
+.w-checkout-payment { /* ... */ }
+.w-checkout-payment .stepBox {
+  overflow: hidden;
+}
+.w-checkout-payment__paymenttype {
+  transition: 0.25s ease;
+  height: auto;
+  overflow: auto;
+}
+.w-checkout-payment__paymenttype--is-closed {
+  height: 0;
+  overflow: hidden;
+}
+.w-checkout-payment__paymenttype--klarnaKCO { }
+.w-checkout-payment__paymenttype--normal { }

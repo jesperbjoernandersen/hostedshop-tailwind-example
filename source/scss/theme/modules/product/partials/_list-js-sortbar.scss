@@ -1,0 +1,15 @@
+.productsortbar {
+	.sortbar-body .form-input > select {
+		color: $font-color-primary;
+	}
+	.input-group-button {
+		> .button, &:hover, &:visited:hover, &:focus, &:visited:focus {
+			background: $button-default-background-color;
+		}
+
+		&.active > .button{
+      border: 1.5px solid;
+			@include  alerts-primary-color('border-color', $color-badge-warning);
+		}
+	}
+}

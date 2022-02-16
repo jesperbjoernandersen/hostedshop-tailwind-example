@@ -1,0 +1,91 @@
+// ==========================================================================
+// Elementer
+// ==========================================================================
+
+html,
+input,
+textarea,
+button {
+    font-family: $font-family-base;
+    color: $font-color-primary;
+}
+
+$image-background: "" !default;
+@if $image-background != "" {
+    body {
+        background-position: center center;
+        background-repeat: repeat;
+        background-attachment: fixed;
+        background-image: url($image-background);
+    }
+}
+
+body {
+    background-color: $design-body-background-color;
+}
+
+// ==========================================================================
+// Site
+// ==========================================================================
+
+/* HEADER */
+.site-header,
+.site-header .w-search .w-search-container .w-search-form {
+  background-color: $design-header-background-color;
+}
+.site-header {
+    color: $design-header-font-color;
+}
+.navbar .w-search .w-search-container .w-search-form ::placeholder,
+.navbar .w-search .w-search-container .w-search-form :-ms-input-placeholder,
+.navbar .w-search .w-search-container .w-search-form ::-ms-input-placeholder {
+    color: rgba($design-header-font-color, 0.8);
+}
+.productmenu > li.has-dropdown > a::after {
+    fill: $design-header-font-color;
+}
+.navbar .navbar-icons svg {
+    stroke: $design-header-font-color;
+}
+
+/* MINIBASKET */
+.miniBasket {
+    background-color: $design-wrapper-background-color;
+    color: $font-color-primary;
+}
+
+/* SLIDER */
+.w-slick .w-slick-caption > div,
+.w-slick .w-slick-next, .w-slick .w-slick-prev {
+    background-color: $design-wrapper-background-color;
+}
+.w-slick .w-slick-next > svg, .w-slick .w-slick-prev > svg {
+    stroke: $font-color-primary;
+}
+.w-slick .w-slick-caption > div > .h1,
+.w-slick .w-slick-caption > div > p {
+    color: $font-color-primary;
+}
+
+/* SIDEBAR / NAV */
+#site-sidebar {
+    background-color: $design-navigation-background-color;
+    color: $design-navigation-font-color;
+}
+#site-sidebar > .title,
+#site-sidebar > ul > li,
+#site-sidebar > ul > li > ul,
+#site-sidebar > ul > li > ul > li > ul {
+    border-color: rgba($design-navigation-font-color, 0.2);
+}
+
+/* FOOTER */
+.site-footer {
+  background: $design-footer-background-color;
+  color: $design-footer-font-color;
+}
+
+/* SORTBAR */
+.productsortbar .input-group-button.active > .button {
+    border-color: transparent;
+}

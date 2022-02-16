@@ -1,0 +1,40 @@
+// ==========================================================================
+// Module: Product tags
+// ==========================================================================
+
+.m-product-tags {
+	.tag-form-delete {
+		margin: 0;
+	}
+
+	.not-popular {
+	}
+
+	.not-very-popular {
+		font-size: 105%;
+	}
+
+	.somewhat-popular {
+		font-size: 110%;
+	}
+
+	.popular {
+		font-size: 115%;
+	}
+
+	.very-popular {
+		font-size: 120%;
+	}
+
+	.ultra-popular {
+		font-size: 125%;
+	}
+
+	.tag-delete {
+		color: red;
+	}
+
+	.tag-delete-button {
+		text-align: left;
+	}
+}

@@ -1,0 +1,30 @@
+{
+    "PRESET_TITLE": "Concrete",
+    "SETTINGS": {
+        "DESIGN_HEADER_BACKGROUND_COLOR": "#718093",
+        "DESIGN_HEADER_FONT_COLOR": "#ffffff",
+        "DESIGN_NAVIGATION_BACKGROUND_COLOR": "#718093",
+        "DESIGN_NAVIGATION_FONT_COLOR": "#ffffff",
+        "DESIGN_BODY_BACKGROUND_COLOR": "#7f8fa6",
+        "DESIGN_WRAPPER_BACKGROUND_COLOR": "#718093",
+        "DESIGN_FOOTER_BACKGROUND_COLOR": "#718093",
+        "DESIGN_FOOTER_FONT_COLOR": "#ffffff",
+        "DESIGN_BOX_BACKGROUND_COLOR": "#718093",
+        "DESIGN_BORDER_COLOR": "#718093",
+        "DESIGN_IMAGE_BACKGROUND_COLOR": "",
+        "FONT_COLOR_PRIMARY": "#ffffff",
+        "FONT_COLOR_HEADLINE": "#ffffff",
+        "FONT_COLOR_LINK": "#ffffff",
+        "BUTTON_PRIMARY_BACKGROUND_COLOR": "#2ecc71",
+        "BUTTON_PRIMARY_FONT_COLOR": "#ffffff",
+        "BUTTON_DEFAULT_BACKGROUND_COLOR": "#718093",
+        "BUTTON_DEFAULT_FONT_COLOR": "#ffffff",
+        "PANEL_CALLOUT_COLOR": "#617080",
+        "PANEL_WARNING_COLOR": "#ffffff",
+        "PANEL_DANGER_COLOR": "#e66657",
+        "MODULE_RATING_COLOR": "#ffcc00",
+        "FONT_FAMILY_BASE": "'Poppins', sans-serif|https:\/\/fonts.googleapis.com\/css?family=Poppins:400,700",
+        "FONT_FAMILY_HEADLINE": "'Poppins', sans-serif|https:\/\/fonts.googleapis.com\/css?family=Poppins:400,700",
+        "LOGO_COLOR": "#ffffff"
+    }
+}

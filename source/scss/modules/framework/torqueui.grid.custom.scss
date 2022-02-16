@@ -1,0 +1,69 @@
+@use "sass:math";
+
+/*!
+ * framework v1.2.2 (http://www.torqueui.com)
+ * Copyright 2018 TorqueUI
+ * Licensed under http://www.apache.org/licenses/LICENSE-2.0
+ */
+
+@mixin ui-grid-columns() {
+    $minusPadding: 2 * $spacingSmall;
+    @for $col from 1 through 12 {
+        $total-selector: '.col-#{$col}';
+        #{$total-selector} {
+            $width: math.div($page, 12) * $col;
+            width: $width - $minusPadding;
+        }
+    }
+}
+
+.clearfix:before, .container:before, .row:before,
+.clearfix:after,
+.container:after,
+.row:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.clearfix:after, .container:after, .row:after {
+  clear: both;
+}
+
+.clearfix, .container, .row {
+  *zoom: 1;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $spacingSmall;
+  padding-right: $spacingSmall;
+}
+
+.row {
+  margin-left: -($spacingSmall);
+  margin-right: -($spacingSmall);
+}
+
+[class*="col-"] {
+  position: relative;
+  min-height: 1px;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  padding-left: $spacingSmall;
+  padding-right: $spacingSmall;
+  float: left;
+}
+
+ @include ui-grid-columns();
+
+.col-12 {
+  clear: both;
+}

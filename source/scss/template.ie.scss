@@ -1,0 +1,82 @@
+// Set charset
+@charset "UTF-8";
+
+// Module dependencies
+@import "compass";
+
+// Globals
+@import "globals/settings";
+@import "globals/mixins";
+@import "libs/torqueui/globals/_mixins_template";
+
+
+//
+// Menu
+//
+
+.ielt9 {
+    .site-corporate,
+    .site-navigation {
+        .container,
+        .container.with-xlarge,
+        .row {
+            overflow: visible;
+        }
+    }
+}
+
+
+//
+// Slider
+//
+
+.ielt9 {
+    .hero-slider-theme .item-caption,
+    .product-slider-theme .item-caption {
+        position: absolute;
+        margin-top: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #000;
+    }
+    .cloudzoom-ajax-loader {
+        display: none !important;
+    }
+}
+
+
+//
+// Select2
+//
+
+.ielt9 {
+    .select2-arrow {
+        background-image: none;
+        border-radius: 0 3px 3px 0;
+        border-color: white !important;
+        background-color: white !important;
+    }
+}
+
+// ==========================================================================
+// IE9
+// ==========================================================================
+
+.ie9 {
+    #vbpt-scope{
+        display: none;
+    }
+}
+
+
+
+// ==========================================================================
+// IE7
+// ==========================================================================
+
+.ie7 {
+    .site-navigation {
+        position: relative;
+        z-index: 1;
+    }
+}

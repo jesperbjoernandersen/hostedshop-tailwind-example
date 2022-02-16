@@ -1,0 +1,2532 @@
+{
+    "PRESETS": {
+        "TITLE": {
+            "DK": "Temaer",
+            "UK": "Colors",
+            "SE": "F&auml;rger",
+            "NO": "Tema",
+            "DE": "Themen"
+        },
+        "GROUPS": {
+            "COLOR_THEMES": {
+                "TITLE": {
+                    "DK": "Farve temaer",
+                    "UK": "Template colors",
+                    "SE": "Mallf&auml;rger",
+                    "NO": "Temafarger",
+                    "DE": "Vorlagenfarben"
+                },
+                "SETTINGS": {
+                    "PRESET": {
+                        "TYPE": "DROPDOWN",
+                        "TITLE": {
+                            "DK": "Tema",
+                            "UK": "Theme",
+                            "SE": "Tema",
+                            "NO": "Tema",
+                            "DE": "Thema"
+                        },
+                        "OPTIONS": {}
+                    }
+                }
+            }
+        }
+    },
+    "COLORS":{
+        "OPEN": "TRUE",
+        "TITLE":{
+            "DK":"Farver",
+            "UK":"Colors",
+            "SE":"F&auml;rger",
+            "NO":"Farger",
+            "DE":"Farben"
+        },
+        "GROUPS":{
+            "DESIGN":{
+                "TITLE":{
+                    "DK":"Template farver",
+                    "UK":"Template colors",
+                    "SE":"Mallf&auml;rger",
+                    "NO":"Malfarger",
+                    "DE":"Vorlagenfarben"
+                },
+                "SETTINGS":{
+                    "DESIGN_HEADER_BACKGROUND_COLOR":{
+                        "TYPE":"COLOR_PICKER",
+                        "TITLE":{
+                            "DK":"Baggrundsfarve for top",
+                            "UK":"Header background color",
+                            "SE":"Bakgrundsf&auml;rg, topp",
+                            "NO":"Bakgrunnsfarge for toppseksjon",
+                            "DE":"Hintergrundfarbe (Header)"
+                        },
+                        "TO_SCSS":"TRUE"
+                    },
+                    "DESIGN_HEADER_FONT_COLOR":{
+                        "TYPE":"COLOR_PICKER",
+                        "TITLE":{
+                            "DK":"Tekst farve for top",
+                            "UK":"Header font color",
+                            "SE":"Textf&auml;rg, topp",
+                            "NO":"Tekstfarge på toppseksjon",
+                            "DE":"Schriftfarbe (Header)"
+                        },
+                        "TO_SCSS":"TRUE"
+                    },
+                    "DESIGN_BODY_BACKGROUND_COLOR":{
+                        "TYPE":"COLOR_PICKER",
+                        "TITLE":{
+                            "DK":"Baggrundsfarve for siden",
+                            "UK":"Page background color",
+                            "SE":"Bakgrundsf&auml;rg, sida",
+                            "NO":"Bakgrunnsfarge på nettbutikken",
+                            "DE":"Hintergrundfarbe (Ganze Seite)"
+                        },
+                        "TO_SCSS":"TRUE"
+                    },
+                    "DESIGN_FOOTER_BACKGROUND_COLOR":{
+                        "TYPE":"COLOR_PICKER",
+                        "TITLE":{
+                            "DK":"Baggrundsfarve for bund",
+                            "UK":"Footer background color",
+                            "SE":"Bakgrundsf&auml;rg, botten",
+                            "NO":"Bakgrunnsfarge på footer",
+                            "DE":"Hintergrundfarbe (Footer)"
+                        },
+                        "TO_SCSS":"TRUE"
+                    },
+                    "DESIGN_FOOTER_FONT_COLOR":{
+                        "TYPE":"COLOR_PICKER",
+                        "TITLE":{
+                            "DK":"Tekst farve for bund",
+                            "UK":"Footer font color",
+                            "SE":"Textf&auml;rg, botton",
+                            "NO":"Tekstfarge på footer",
+                            "DE":"Schriftfarbe (Footer)"
+                        },
+                        "TO_SCSS":"TRUE"
+                    },
+                    "DESIGN_IMAGE_BACKGROUND_COLOR":{
+                        "TYPE":"COLOR_PICKER",
+                        "TITLE":{
+                            "DK":"Baggrundsfarve for billeder",
+                            "UK":"Background color for images",
+                            "SE":"Bakgrund f&auml;rgbilder",
+                            "NO":"Bakgrunnsfarge for bilder",
+                            "DE":"Hintergrundfarbe (Bilder)"
+                        }
+                    }
+                }
+            },
+            "FONT":{
+                "TITLE":{
+                    "DK":"Tekst farver",
+                    "UK":"Text colors",
+                    "SE":"Textf&auml;rger",
+                    "NO":"Tekstfarger",
+                    "DE":"Schriftfarbe"
+                },
+                "SETTINGS":{
+                    "FONT_COLOR_PRIMARY":{
+                        "TYPE":"COLOR_PICKER",
+                        "TITLE":{
+                            "DK":"Generel tekst farve",
+                            "UK":"Base text color",
+                            "SE":"Generell textf&auml;rg",
+                            "NO":"Generell tekstfarge",
+                            "DE":"Basis Schriftfarbe"
+                        },
+                        "TO_SCSS":"TRUE"
+                    },
+                    "FONT_COLOR_HEADLINE":{
+                        "TYPE":"COLOR_PICKER",
+                        "TITLE":{
+                            "DK":"Overskrift tekst farve",
+                            "UK":"Headline text color",
+                            "SE":"Textf&auml;rg, &ouml;verskrift",
+                            "NO":"Overskriftsfarge",
+                            "DE":"Schriftfarbe (&Uuml;berschriften)"
+                        },
+                        "TO_SCSS":"TRUE"
+                    },
+                    "FONT_COLOR_LINK":{
+                        "TYPE":"COLOR_PICKER",
+                        "TITLE":{
+                            "DK":"Link og highlight farve",
+                            "UK":"Link and highlight color",
+                            "SE":"L&auml;nk- och markeringsf&auml;rg",
+                            "NO":"Link- og highlight farge",
+                            "DE":"Link und Highlight-Farbe"
+                        },
+                        "TO_SCSS":"TRUE"
+                    }
+                }
+            },
+            "BUTTONS":{
+                "TITLE":{
+                    "DK":"Knap farver",
+                    "UK":"Button colors",
+                    "SE":"F&auml;rger p&aring; knappar",
+                    "NO":"Knappfarger",
+                    "DE":"Knopffarben"
+                },
+                "SETTINGS":{
+                    "BUTTON_PRIMARY_BACKGROUND_COLOR":{
+                        "TYPE":"COLOR_PICKER",
+                        "TITLE":{
+                            "DK":"Prim&aelig;r knap baggrundsfarve",
+                            "UK":"Primary button background color",
+                            "SE":"Prim&auml;r bakgrundsf&auml;rg",
+                            "NO":"Prim&aelig;r bakgrunnsfarge",
+                            "DE":"Prim&auml;re Knopfhintergrundfarbe"
+                        },
+                        "TO_SCSS":"TRUE"
+                    },
+                    "BUTTON_PRIMARY_FONT_COLOR":{
+                        "TYPE":"COLOR_PICKER",
+                        "TITLE":{
+                            "DK":"Prim&aelig;r knap tekst farve",
+                            "UK":"Primary button text color",
+                            "SE":"Prim&auml;r textf&auml;rg",
+                            "NO":"Prim&aelig;r teksttfarge",
+                            "DE":"Prim&auml;re Knopftextfarbe"
+                        },
+                        "TO_SCSS":"TRUE"
+                    },
+                    "BUTTON_DEFAULT_BACKGROUND_COLOR":{
+                        "TYPE":"COLOR_PICKER",
+                        "TITLE":{
+                            "DK":"Sekund&aelig;r knap baggrundsfarve",
+                            "UK":"Secondary button background color",
+                            "SE":"Sekund&auml;r bakgrundsf&auml;rg",
+                            "NO":"Sekund&aelig;r bakgrunnsfarge",
+                            "DE":"Sekund&auml;re Knopfhintergrundfarbe"
+                        },
+                        "TO_SCSS":"TRUE"
+                    },
+                    "BUTTON_DEFAULT_FONT_COLOR":{
+                        "TYPE":"COLOR_PICKER",
+                        "TITLE":{
+                            "DK":"Sekund&aelig;r knap tekst farve",
+                            "UK":"Secondary button text color",
+                            "SE":"Sekund&auml;r textf&auml;rg",
+                            "NO":"Sekund&aelig;r tekstfarge",
+                            "DE":"Sekund&auml;re Knopfschriftfarbe"
+                        },
+                        "TO_SCSS":"TRUE"
+                    }
+                }
+            },
+            "MISCELLANEOUS":{
+                "TITLE":{
+                    "DK":"Diverse farver",
+                    "UK":"Miscellaneous colors",
+                    "SE":"&Ouml;vriga f&auml;rger",
+                    "NO":"Notifikasjonsfarger",
+                    "DE":"Diverse Farben"
+                },
+                "SETTINGS":{
+                    "PANEL_CALLOUT_COLOR":{
+                        "TYPE":"COLOR_PICKER",
+                        "TITLE":{
+                            "DK":"Infoboks farve, succes",
+                            "UK":"Info box color, success",
+                            "SE":"Informationsbox, lyckad",
+                            "NO":"Notifikasjonsfarge for 'Suksess'",
+                            "DE":"Infobox, erfolgreich"
+                        },
+                        "TO_SCSS":"TRUE"
+                    },
+                    "PANEL_WARNING_COLOR":{
+                        "TYPE":"COLOR_PICKER",
+                        "TITLE":{
+                            "DK":"Infoboks farve, neutral",
+                            "UK":"Info box color, neutral",
+                            "SE":"Informationsbox, neutral",
+                            "NO":"Notifikasjonsfarge for 'N&oslash;ytral'",
+                            "DE":"Infobox, neutral"
+                        },
+                        "TO_SCSS":"TRUE"
+                    },
+                    "PANEL_DANGER_COLOR":{
+                        "TYPE":"COLOR_PICKER",
+                        "TITLE":{
+                            "DK":"Infoboks farve, advarsel",
+                            "UK":"Info box color, warning",
+                            "SE":"Informationsbox, varning",
+                            "NO":"Notifikasjonsfarge for 'Advarsel'",
+                            "DE":"Infobox, warnung"
+                        },
+                        "TO_SCSS":"TRUE"
+                    }
+                }
+            }
+        }
+    },
+    "DESIGN":{
+        "TITLE":{
+            "DK":"Grafik & skrifttyper",
+            "UK":"Graphics & Fonts",
+            "SE":"Grafik & teckensnitt",
+            "NO":"Grafikk & skrifttyper",
+            "DE":"Grafiken & Schriftarten"
+        },
+        "GROUPS":{
+            "LOGO":{
+                "TITLE":{
+                    "DK":"Logo",
+                    "UK":"Logo",
+                    "SE":"Logo",
+                    "NO":"Logo",
+                    "DE":"Logo"
+                },
+                "SETTINGS":{
+                    "LOGO_TYPE":{
+                        "TYPE":"DROPDOWN",
+                        "TITLE":{
+                            "DK":"Logo type",
+                            "UK":"Logo type",
+                            "SE":"Typ av logga",
+                            "NO":"Logotype",
+                            "DE":"Logotyp"
+                        },
+                        "OPTIONS":{
+                            "TEXT": {
+                                "TITLE": {
+                                    "DK":"Tekst",
+                                    "UK":"Text",
+                                    "SE":"Text",
+                                    "NO":"Tekst",
+                                    "DE":"Text"
+
+                                }
+                            },
+                            "PICTURE": {
+                                "TITLE": {
+                                    "DK":"Grafik",
+                                    "UK":"Graphic",
+                                    "SE":"Grafik",
+                                    "NO":"Bilde",
+                                    "DE":"Grafik"
+                                }
+                            }
+                        }
+                    },
+                    "LOGO_SOURCE" : {
+                        "TYPE":"IMAGE_PICKER",
+                        "LANGUAGE_DEPENDENT":"TRUE",
+                        "TITLE":{
+                            "DK":"Logo grafik website",
+                            "UK":"Logo graphic website",
+                            "SE":"Grafisk logga p&aring; site",
+                            "NO":"Bildelogo p&aring; nettside",
+                            "DE":"Logo Webseite"
+                        },
+                        "HINT": {
+                            "DK": "maksimum 1240px bred",
+                            "UK": "max 1240px wide",
+                            "SE": "maximal 1240px bred",
+                            "NO": "Maksimal bredde: 1240px",
+                            "DE": "maximal 1240px breit"
+                        }
+                    },
+                    "LOGO_SOURCE_NEGATIVE" : {
+                        "TYPE":"IMAGE_PICKER",
+                        "LANGUAGE_DEPENDENT":"TRUE",
+                        "TITLE":{
+                            "DK":"Logo grafik e-mails, pdf mv.",
+                            "UK":"Logo graphic e-mails, pdf etc.",
+                            "SE":"Grafisk logga f&ouml;r e-post, pdf etc.",
+                            "NO":"Bildelogo for e-post, pdf etc.",
+                            "DE":"Logo fr E-Mail, PDFs etc."
+                        }
+                    },
+                    "LOGO_COLOR":{
+                        "TYPE":"COLOR_PICKER",
+                        "TITLE":{
+                            "DK":"Logo tekst farve",
+                            "UK":"Logo text color",
+                            "SE":"Textlogga, f&auml;rg",
+                            "NO":"Farge på tekstlogo",
+                            "DE":"Logo Textfarbe"
+                        },
+                        "TO_SCSS":"TRUE"
+                    }
+                }
+            },
+            "FONTS":{
+                "TITLE":{
+                    "DK":"Skrifttyper",
+                    "UK":"Fonts",
+                    "SE":"Teckensnitt",
+                    "NO":"Skrifttyper",
+                    "DE":"Schriftarten"
+                },
+                "SETTINGS":{
+                    "FONT_FAMILY_BASE":{
+                        "TYPE":"DROPDOWN",
+                        "TITLE":{
+                            "DK":"Skrifttype generel",
+                            "UK":"Base font",
+                            "SE":"Generellt teckensnitt",
+                            "NO":"Generell skrifttype",
+                            "DE":"Basis Schriftart"
+                        },
+                        "OPTIONS":{
+                            "'Abel', sans-serif|https://fonts.googleapis.com/css?family=Abel:400,700": {
+                                "TITLE": {
+                                    "DK": "Abel, sans-serif (Google Font)",
+                                    "UK": "Abel, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Arial Black', 'Gadget', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Arial Black, Gadget, sans-serif",
+                                    "UK": "Arial Black, Gadget, sans-serif"
+                                }
+                            },
+                            "'Arvo', serif|https://fonts.googleapis.com/css?family=Arvo:400,700": {
+                                "TITLE": {
+                                    "DK": "Arvo, serif (Google Font)",
+                                    "UK": "Arvo, serif (Google Font)"
+                                }
+                            },
+                            "'Avant Garde', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Avant Garde, sans-serif",
+                                    "UK": "Avant Garde, sans-serif"
+                                }
+                            },
+                            "'Candara', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Candara, sans-serif",
+                                    "UK": "Candara, sans-serif"
+                                }
+                            },
+                            "'Courier New', 'Courier', monospace": {
+                                "TITLE": {
+                                    "DK": "Courier New, Courier, monospace",
+                                    "UK": "Courier New, Courier, monospace"
+                                }
+                            },
+                            "'Crimson Text', serif|https://fonts.googleapis.com/css?family=Crimson+Text:400,700": {
+                                "TITLE": {
+                                    "DK": "Crimson Text, serif (Google Font)",
+                                    "UK": "Crimson Text, serif (Google Font)"
+                                }
+                            },
+                            "'Droid Sans', sans-serif|https://fonts.googleapis.com/css?family=Droid+Sans:400,700": {
+                                "TITLE": {
+                                    "DK": "Droid Sans, sans-serif (Google Font)",
+                                    "UK": "Droid Sans, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Droid Serif', serif|https://fonts.googleapis.com/css?family=Droid+Serif:400,700": {
+                                "TITLE": {
+                                    "DK": "Droid Serif, serif (Google Font)",
+                                    "UK": "Droid Serif, serif (Google Font)"
+                                }
+                            },
+                            "'Georgia', serif": {
+                                "TITLE": {
+                                    "DK": "Georgia, serif",
+                                    "UK": "Georgia, serif"
+                                }
+                            },
+                            "'Gill Sans', 'Gill Sans MT', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Gill Sans, Gill Sans MT, sans-serif",
+                                    "UK": "Gill Sans, Gill Sans MT, sans-serif"
+                                }
+                            },
+                            "'Helvetica', 'Arial', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Helvetica, Arial, sans-serif",
+                                    "UK": "Helvetica, Arial, sans-serif"
+                                }
+                            },
+                            "'Impact', 'Charcoal', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Impact, Charcoal, sans-serif",
+                                    "UK": "Impact, Charcoal, sans-serif"
+                                }
+                            },
+                            "'Inconsolata', monospace|https://fonts.googleapis.com/css?family=Inconsolata:400,700": {
+                                "TITLE": {
+                                    "DK": "Inconsolata, monospace (Google Font)",
+                                    "UK": "Inconsolata, monospace (Google Font)"
+                                }
+                            },
+                            "'Indie Flower', cursive|https://fonts.googleapis.com/css?family=Indie+Flower:400,700": {
+                                "TITLE": {
+                                    "DK": "Indie Flower, cursive (Google Font)",
+                                    "UK": "Indie Flower, cursive (Google Font)"
+                                }
+                            },
+                            "'Karla', |https://fonts.googleapis.com/css?family=Karla:400,700": {
+                                "TITLE": {
+                                    "DK": "Karla, sans-serif (Google Font)",
+                                    "UK": "Karla, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Lato', sans-serif|https://fonts.googleapis.com/css?family=Lato:400,700": {
+                                "TITLE": {
+                                    "DK": "Lato, sans-serif (Google Font)",
+                                    "UK": "Lato, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Lobster', cursive|https://fonts.googleapis.com/css?family=Lobster:400,700": {
+                                "TITLE": {
+                                    "DK": "Lobster, cursive (Google Font)",
+                                    "UK": "Lobster, cursive (Google Font)"
+                                }
+                            },
+                            "'Lora', serif|https://fonts.googleapis.com/css?family=Lora:400,700": {
+                                "TITLE": {
+                                    "DK": "Lora, serif (Google Font)",
+                                    "UK": "Lora, serif (Google Font)"
+                                }
+                            },
+                            "'Lucida Console', 'Monaco', monospace": {
+                                "TITLE": {
+                                    "DK": "Lucida Console, Monaco, monospace",
+                                    "UK": "Lucida Console, Monaco, monospace"
+                                }
+                            },
+                            "'Lucida Sans Unicode', 'Lucida Grande', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Lucida Sans Unicode, Lucida Grande, sans-serif",
+                                    "UK": "Lucida Sans Unicode, Lucida Grande, sans-serif"
+                                }
+                            },
+                            "'Merriweather', serif|https://fonts.googleapis.com/css?family=Merriweather:300,700": {
+                                "TITLE": {
+                                    "DK": "Merriweather, serif (Google Font)",
+                                    "UK": "Merriweather, serif (Google Font)"
+                                }
+                            },
+                            "'Montserrat', sans-serif|https://fonts.googleapis.com/css?family=Montserrat:300,700": {
+                                "TITLE": {
+                                    "DK": "Montserrat, sans-serif (Google Font)",
+                                    "UK": "Montserrat, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Old Standard TT', serif|https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700": {
+                                "TITLE": {
+                                    "DK": "Old Standard TT, serif (Google Font)",
+                                    "UK": "Old Standard TT, serif (Google Font)"
+                                }
+                            },
+                            "'Open Sans', sans-serif|https://fonts.googleapis.com/css?family=Open+Sans:400,700": {
+                                "TITLE": {
+                                    "DK": "Open Sans, sans-serif (Google Font)",
+                                    "UK": "Open Sans, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Oswald', sans-serif|https://fonts.googleapis.com/css?family=Oswald:400,700": {
+                                "TITLE": {
+                                    "DK": "Oswald, sans-serif (Google Font)",
+                                    "UK": "Oswald, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Oswald', sans-serif|https://fonts.googleapis.com/css?family=Oswald:300,700": {
+                                "TITLE": {
+                                    "DK": "Oswald LT, sans-serif (Google Font)",
+                                    "UK": "Oswald LT, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Palatino Linotype', 'Book Antiqua', 'Palatino', serif": {
+                                "TITLE": {
+                                    "DK": "Palatino Linotype, Book Antiqua, Palatino, serif",
+                                    "UK": "Palatino Linotype, Book Antiqua, Palatino, serif"
+                                }
+                            },
+                            "'Poppins', sans-serif|https://fonts.googleapis.com/css?family=Poppins:400,700": {
+                                "TITLE": {
+                                    "DK": "Poppins, sans-serif (Google Font)",
+                                    "UK": "Poppins, sans-serif (Google Font)"
+                                }
+                            },
+                            "'PT Sans', sans-serif|https://fonts.googleapis.com/css?family=PT+Sans:400,700": {
+                                "TITLE": {
+                                    "DK": "PT Sans, sans-serif (Google Font)",
+                                    "UK": "PT Sans, sans-serif (Google Font)"
+                                }
+                            },
+                            "'PT Serif', serif|https://fonts.googleapis.com/css?family=PT+Serif:400,700": {
+                                "TITLE": {
+                                    "DK": "PT Serif, serif (Google Font)",
+                                    "UK": "PT Serif, serif (Google Font)"
+                                }
+                            },
+                            "'Raleway', sans-serif|https://fonts.googleapis.com/css?family=Raleway:400,700": {
+                                "TITLE": {
+                                    "DK": "Raleway, sans-serif (Google Font)",
+                                    "UK": "Raleway, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Roboto', sans-serif|https://fonts.googleapis.com/css?family=Roboto:300,700": {
+                                "TITLE": {
+                                    "DK": "Roboto, sans-serif (Google Font)",
+                                    "UK": "Roboto, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Roboto Slab', serif|https://fonts.googleapis.com/css?family=Roboto+Slab:300,700": {
+                                "TITLE": {
+                                    "DK": "Roboto Slab, serif (Google Font)",
+                                    "UK": "Roboto Slab, serif (Google Font)"
+                                }
+                            },
+                            "'Vollkorn', serif|https://fonts.googleapis.com/css?family=Vollkorn:400,700": {
+                                "TITLE": {
+                                    "DK": "Vollkorn, serif (Google Font)",
+                                    "UK": "Vollkorn, serif (Google Font)"
+                                }
+                            },
+                            "'Shadows Into Light', cursive|https://fonts.googleapis.com/css?family=Shadows+Into+Light:400,700": {
+                                "TITLE": {
+                                    "DK": "Shadows Into Light, cursive (Google Font)",
+                                    "UK": "Shadows Into Light, cursive (Google Font)"
+                                }
+                            },
+                            "'Source Sans Pro', sans-serif|https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700": {
+                                "TITLE": {
+                                    "DK": "Source Sans Pro, sans-serif (Google Font)",
+                                    "UK": "Source Sans Pro, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Tahoma', 'Geneva', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Tahoma, Geneva, sans-serif",
+                                    "UK": "Tahoma, Geneva, sans-serif"
+                                }
+                            },
+                            "'Times New Roman', 'Times', serif": {
+                                "TITLE": {
+                                    "DK": "Times New Roman, Times, serif",
+                                    "UK": "Times New Roman, Times, serif"
+                                }
+                            },
+                            "'Trebuchet MS', 'Helvetica', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Trebuchet MS, Helvetica, sans-serif",
+                                    "UK": "Trebuchet MS, Helvetica, sans-serif"
+                                }
+                            },
+                            "'Ubuntu', sans-serif|https://fonts.googleapis.com/css?family=Ubuntu:300,700": {
+                                "TITLE": {
+                                    "DK": "Ubuntu, sans-serif (Google Font)",
+                                    "UK": "Ubuntu, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Unica One', sans-serif|https://fonts.googleapis.com/css?family=Unica+One:300,700": {
+                                "TITLE": {
+                                    "DK": "Unica One, sans-serif (Google Font)",
+                                    "UK": "Unica One, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Verdana', 'Geneva', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Verdana, Geneva, sans-serif",
+                                    "UK": "Verdana, Geneva, sans-serif"
+                                }
+                            },
+                            "'Quantico', sans-serif|https://fonts.googleapis.com/css?family=Quantico:300,700": {
+                                "TITLE": {
+                                    "DK": "Quantico, sans-serif (Google Font)",
+                                    "UK": "Quantico, sans-serif (Google Font)"
+                                }
+                            }
+                        },
+                        "TO_SCSS":"TRUE"
+                    },
+                    "FONT_FAMILY_HEADLINE":{
+                        "TYPE":"DROPDOWN",
+                        "TITLE":{
+                            "DK":"Skrifttype overskrift",
+                            "UK":"Headline font",
+                            "SE":"Teckensnitt, &ouml;verskrift",
+                            "NO":"Skrifttype for overskrift",
+                            "DE":"&Uuml;berschriften Schriftart"
+                        },
+                        "OPTIONS":{
+                            "'Abel', sans-serif|https://fonts.googleapis.com/css?family=Abel:400,700": {
+                                "TITLE": {
+                                    "DK": "Abel, sans-serif (Google Font)",
+                                    "UK": "Abel, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Arial Black', 'Gadget', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Arial Black, Gadget, sans-serif",
+                                    "UK": "Arial Black, Gadget, sans-serif"
+                                }
+                            },
+                            "'Arvo', serif|https://fonts.googleapis.com/css?family=Arvo:400,700": {
+                                "TITLE": {
+                                    "DK": "Arvo, serif (Google Font)",
+                                    "UK": "Arvo, serif (Google Font)"
+                                }
+                            },
+                            "'Avant Garde', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Avant Garde, sans-serif",
+                                    "UK": "Avant Garde, sans-serif"
+                                }
+                            },
+                            "'Candara', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Candara, sans-serif",
+                                    "UK": "Candara, sans-serif"
+                                }
+                            },
+                            "'Courier New', 'Courier', monospace": {
+                                "TITLE": {
+                                    "DK": "Courier New, Courier, monospace",
+                                    "UK": "Courier New, Courier, monospace"
+                                }
+                            },
+                            "'Crimson Text', serif|https://fonts.googleapis.com/css?family=Crimson+Text:400,700": {
+                                "TITLE": {
+                                    "DK": "Crimson Text, serif (Google Font)",
+                                    "UK": "Crimson Text, serif (Google Font)"
+                                }
+                            },
+                            "'Droid Sans', sans-serif|https://fonts.googleapis.com/css?family=Droid+Sans:400,700": {
+                                "TITLE": {
+                                    "DK": "Droid Sans, sans-serif (Google Font)",
+                                    "UK": "Droid Sans, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Droid Serif', serif|https://fonts.googleapis.com/css?family=Droid+Serif:400,700": {
+                                "TITLE": {
+                                    "DK": "Droid Serif, serif (Google Font)",
+                                    "UK": "Droid Serif, serif (Google Font)"
+                                }
+                            },
+                            "'Georgia', serif": {
+                                "TITLE": {
+                                    "DK": "Georgia, serif",
+                                    "UK": "Georgia, serif"
+                                }
+                            },
+                            "'Gill Sans', 'Gill Sans MT', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Gill Sans, Gill Sans MT, sans-serif",
+                                    "UK": "Gill Sans, Gill Sans MT, sans-serif"
+                                }
+                            },
+                            "'Helvetica', 'Arial', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Helvetica, Arial, sans-serif",
+                                    "UK": "Helvetica, Arial, sans-serif"
+                                }
+                            },
+                            "'Impact', 'Charcoal', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Impact, Charcoal, sans-serif",
+                                    "UK": "Impact, Charcoal, sans-serif"
+                                }
+                            },
+                            "'Inconsolata', monospace|https://fonts.googleapis.com/css?family=Inconsolata:400,700": {
+                                "TITLE": {
+                                    "DK": "Inconsolata, monospace (Google Font)",
+                                    "UK": "Inconsolata, monospace (Google Font)"
+                                }
+                            },
+                            "'Indie Flower', cursive|https://fonts.googleapis.com/css?family=Indie+Flower:400,700": {
+                                "TITLE": {
+                                    "DK": "Indie Flower, cursive (Google Font)",
+                                    "UK": "Indie Flower, cursive (Google Font)"
+                                }
+                            },
+                            "'Karla', |https://fonts.googleapis.com/css?family=Karla:400,700": {
+                                "TITLE": {
+                                    "DK": "Karla, sans-serif (Google Font)",
+                                    "UK": "Karla, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Lato', sans-serif|https://fonts.googleapis.com/css?family=Lato:400,700": {
+                                "TITLE": {
+                                    "DK": "Lato, sans-serif (Google Font)",
+                                    "UK": "Lato, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Lobster', cursive|https://fonts.googleapis.com/css?family=Lobster:400,700": {
+                                "TITLE": {
+                                    "DK": "Lobster, cursive (Google Font)",
+                                    "UK": "Lobster, cursive (Google Font)"
+                                }
+                            },
+                            "'Lora', serif|https://fonts.googleapis.com/css?family=Lora:400,700": {
+                                "TITLE": {
+                                    "DK": "Lora, serif (Google Font)",
+                                    "UK": "Lora, serif (Google Font)"
+                                }
+                            },
+                            "'Lucida Console', 'Monaco', monospace": {
+                                "TITLE": {
+                                    "DK": "Lucida Console, Monaco, monospace",
+                                    "UK": "Lucida Console, Monaco, monospace"
+                                }
+                            },
+                            "'Lucida Sans Unicode', 'Lucida Grande', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Lucida Sans Unicode, Lucida Grande, sans-serif",
+                                    "UK": "Lucida Sans Unicode, Lucida Grande, sans-serif"
+                                }
+                            },
+                            "'Merriweather', serif|https://fonts.googleapis.com/css?family=Merriweather:300,700": {
+                                "TITLE": {
+                                    "DK": "Merriweather, serif (Google Font)",
+                                    "UK": "Merriweather, serif (Google Font)"
+                                }
+                            },
+                            "'Montserrat', sans-serif|https://fonts.googleapis.com/css?family=Montserrat:300,700": {
+                                "TITLE": {
+                                    "DK": "Montserrat, sans-serif (Google Font)",
+                                    "UK": "Montserrat, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Old Standard TT', serif|https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700": {
+                                "TITLE": {
+                                    "DK": "Old Standard TT, serif (Google Font)",
+                                    "UK": "Old Standard TT, serif (Google Font)"
+                                }
+                            },
+                            "'Open Sans', sans-serif|https://fonts.googleapis.com/css?family=Open+Sans:400,700": {
+                                "TITLE": {
+                                    "DK": "Open Sans, sans-serif (Google Font)",
+                                    "UK": "Open Sans, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Oswald', sans-serif|https://fonts.googleapis.com/css?family=Oswald:400,700": {
+                                "TITLE": {
+                                    "DK": "Oswald, sans-serif (Google Font)",
+                                    "UK": "Oswald, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Oswald', sans-serif|https://fonts.googleapis.com/css?family=Oswald:300,700": {
+                                "TITLE": {
+                                    "DK": "Oswald LT, sans-serif (Google Font)",
+                                    "UK": "Oswald LT, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Palatino Linotype', 'Book Antiqua', 'Palatino', serif": {
+                                "TITLE": {
+                                    "DK": "Palatino Linotype, Book Antiqua, Palatino, serif",
+                                    "UK": "Palatino Linotype, Book Antiqua, Palatino, serif"
+                                }
+                            },
+                            "'Poppins', sans-serif|https://fonts.googleapis.com/css?family=Poppins:400,700": {
+                                "TITLE": {
+                                    "DK": "Poppins, sans-serif (Google Font)",
+                                    "UK": "Poppins, sans-serif (Google Font)"
+                                }
+                            },
+                            "'PT Sans', sans-serif|https://fonts.googleapis.com/css?family=PT+Sans:400,700": {
+                                "TITLE": {
+                                    "DK": "PT Sans, sans-serif (Google Font)",
+                                    "UK": "PT Sans, sans-serif (Google Font)"
+                                }
+                            },
+                            "'PT Serif', serif|https://fonts.googleapis.com/css?family=PT+Serif:400,700": {
+                                "TITLE": {
+                                    "DK": "PT Serif, serif (Google Font)",
+                                    "UK": "PT Serif, serif (Google Font)"
+                                }
+                            },
+                            "'Raleway', sans-serif|https://fonts.googleapis.com/css?family=Raleway:400,700": {
+                                "TITLE": {
+                                    "DK": "Raleway, sans-serif (Google Font)",
+                                    "UK": "Raleway, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Roboto', sans-serif|https://fonts.googleapis.com/css?family=Roboto:300,700": {
+                                "TITLE": {
+                                    "DK": "Roboto, sans-serif (Google Font)",
+                                    "UK": "Roboto, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Roboto Slab', serif|https://fonts.googleapis.com/css?family=Roboto+Slab:300,700": {
+                                "TITLE": {
+                                    "DK": "Roboto Slab, serif (Google Font)",
+                                    "UK": "Roboto Slab, serif (Google Font)"
+                                }
+                            },
+                            "'Vollkorn', serif|https://fonts.googleapis.com/css?family=Vollkorn:400,700": {
+                                "TITLE": {
+                                    "DK": "Vollkorn, serif (Google Font)",
+                                    "UK": "Vollkorn, serif (Google Font)"
+                                }
+                            },
+                            "'Shadows Into Light', cursive|https://fonts.googleapis.com/css?family=Shadows+Into+Light:400,700": {
+                                "TITLE": {
+                                    "DK": "Shadows Into Light, cursive (Google Font)",
+                                    "UK": "Shadows Into Light, cursive (Google Font)"
+                                }
+                            },
+                            "'Source Sans Pro', sans-serif|https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700": {
+                                "TITLE": {
+                                    "DK": "Source Sans Pro, sans-serif (Google Font)",
+                                    "UK": "Source Sans Pro, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Tahoma', 'Geneva', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Tahoma, Geneva, sans-serif",
+                                    "UK": "Tahoma, Geneva, sans-serif"
+                                }
+                            },
+                            "'Times New Roman', 'Times', serif": {
+                                "TITLE": {
+                                    "DK": "Times New Roman, Times, serif",
+                                    "UK": "Times New Roman, Times, serif"
+                                }
+                            },
+                            "'Trebuchet MS', 'Helvetica', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Trebuchet MS, Helvetica, sans-serif",
+                                    "UK": "Trebuchet MS, Helvetica, sans-serif"
+                                }
+                            },
+                            "'Ubuntu', sans-serif|https://fonts.googleapis.com/css?family=Ubuntu:300,700": {
+                                "TITLE": {
+                                    "DK": "Ubuntu, sans-serif (Google Font)",
+                                    "UK": "Ubuntu, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Unica One', sans-serif|https://fonts.googleapis.com/css?family=Unica+One:300,700": {
+                                "TITLE": {
+                                    "DK": "Unica One, sans-serif (Google Font)",
+                                    "UK": "Unica One, sans-serif (Google Font)"
+                                }
+                            },
+                            "'Verdana', 'Geneva', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Verdana, Geneva, sans-serif",
+                                    "UK": "Verdana, Geneva, sans-serif"
+                                }
+                            },
+                            "'Quantico', sans-serif|https://fonts.googleapis.com/css?family=Quantico:300,700": {
+                                "TITLE": {
+                                    "DK": "Quantico, sans-serif (Google Font)",
+                                    "UK": "Quantico, sans-serif (Google Font)"
+                                }
+                            }
+                        },
+                        "TO_SCSS":"TRUE"
+                    }
+                }
+            },
+            "IMAGE_MANIPULATION":{
+                "TITLE":{
+                    "DK":"Diverse grafik",
+                    "UK":"Various graphics",
+                    "SE":"Olika grafik",
+                    "NO":"Diverse grafikk",
+                    "DE":"Verschiedene Grafiken"
+                },
+                "SETTINGS":{
+                    "IMAGE_FAVICON":{
+                        "TYPE":"IMAGE_PICKER",
+                        "TITLE":{
+                            "DK":"Favicon",
+                            "UK":"Favicon",
+                            "SE":"Favicon",
+                            "NO":"Favicon",
+                            "DE":"Favicon"
+                        }
+                    },
+                    "IMAGE_BACKGROUND":{
+                        "TYPE":"IMAGE_PICKER",
+                        "TITLE":{
+                            "DK":"Sidens baggrundsbillede",
+                            "UK":"Page background image",
+                            "SE":"Sidans bakgrundsbild",
+                            "NO":"Bakgrunnsbilde på nettbutikken",
+                            "DE":"Seiten Hingergrundbild"
+                        },
+                        "TO_SCSS":"TRUE"
+                    },
+                    "IMAGE_WATERMARK_SOURCE":{
+                        "TYPE":"IMAGE_PICKER",
+                        "TITLE":{
+                            "DK":"Vandm&aelig;rke",
+                            "UK":"Watermark",
+                            "SE":"Vattenm&auml;rke",
+                            "NO":"Vannmerke",
+                            "DE":"Wasserzeichen"
+                        }
+                    },
+                    "IMAGE_WATERMARK_PLACEMENT":{
+                        "TYPE":"DROPDOWN",
+                        "TITLE":{
+                            "DK":"Vandm&aelig;rke placering",
+                            "UK":"Watermark location",
+                            "SE":"Vattenm&auml;rke, placering",
+                            "NO":"Plassering av vannmerke",
+                            "DE":"Wasserzeichen. Platzierung"
+                        },
+                        "OPTIONS":{
+                            "BOTTOMLEFT": {
+                                "TITLE": {
+                                    "DK":"Bund venstre",
+                                    "UK":"Bottom left",
+                                    "SE":"Botten v&auml;nster",
+                                    "NO":"Nederst til venstre",
+                                    "DE":"Unten links"
+                                }
+                            },
+                            "BOTTOMRIGHT": {
+                                "TITLE": {
+                                    "DK":"Bund h&oslash;jre",
+                                    "UK":"Bottom right",
+                                    "SE":"Botten h&ouml;ger",
+                                    "NO":"Nederst til h&oslash;yre",
+                                    "DE":"Unten rechts"
+                                }
+                            },
+                            "TOPLEFT": {
+                                "TITLE": {
+                                    "DK":"Top venstre",
+                                    "UK":"Top left",
+                                    "SE":"Toppen v&auml;nster",
+                                    "NO":"Topp venstre",
+                                    "DE":"Oben links"
+                                }
+                            },
+                            "TOPRIGHT": {
+                                "TITLE": {
+                                    "DK":"Top h&oslash;jre",
+                                    "UK":"Top right",
+                                    "SE":"Toppen h&ouml;ger",
+                                    "NO":"Øverst til h&oslash;yre",
+                                    "DE":"Oben rechts"
+                                }
+                            },
+                            "CENTER": {
+                                "TITLE": {
+                                    "DK":"Centreret",
+                                    "UK":"Center",
+                                    "SE":"Centrerad",
+                                    "NO":"Midtstilt",
+                                    "DE":"Zentral"
+                                }
+                            }
+                        }
+                    },
+                    "IMAGE_WATERMARK_SIZE":{
+                        "TYPE":"DROPDOWN",
+                        "TITLE":{
+                            "DK":"Vandm&aelig;rke st&oslash;rrelse",
+                            "UK":"Watermark size",
+                            "SE":"Vattenm&ouml;rke, storlek",
+                            "NO":"Størrelse på vannmerke",
+                            "DE":"Wasserzeichen, Gr&#xF6;&#xDF;e"
+                        },
+                        "OPTIONS":{
+                            "10": {
+                                "TITLE": {
+                                    "DK": "10 %",
+                                    "UK": "10 %"
+                                }
+                            },
+                            "20": {
+                                "TITLE": {
+                                    "DK": "20 %",
+                                    "UK": "20 %"
+                                }
+                            },
+                            "30": {
+                                "TITLE": {
+                                    "DK": "30 %",
+                                    "UK": "30 %"
+                                }
+                            },
+                            "40": {
+                                "TITLE": {
+                                    "DK": "40 %",
+                                    "UK": "40 %"
+                                }
+                            },
+                            "50": {
+                                "TITLE": {
+                                    "DK": "50 %",
+                                    "UK": "50 %"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "SETTINGS":{
+        "TITLE":{
+            "DK":"Indstillinger",
+            "UK":"Settings",
+            "SE":"Inst&auml;llningar",
+            "NO":"Innstillinger",
+            "DE":"Einstellungen"
+        },
+        "GROUPS":{
+            "FRONTPAGE_SETTINGS": {
+                "TITLE":{
+                    "DK":"Forside indstillinger",
+                    "UK":"Frontpage settings",
+                    "SE":"Förstasidesinställningar",
+                    "NO":"Forsideinnstillinger",
+                    "DE":"Startseite-Einstellungen"
+                },
+                "SETTINGS":{
+                    "SETTINGS_FRONTPAGE_CATEGORIES":{
+                        "TYPE":"TEXT",
+                        "TITLE":{
+                            "DK":"Forside kategorier",
+                            "UK":"Frontpage categories",
+                            "SE":"Förstasidekategorier",
+                            "NO":"Forsiden kategorier",
+                            "DE":"Startseite-Kategorien"
+                        },
+                        "HINT": {
+                            "DK":"Benyt kategoriernes ID i en komma separeret liste",
+                            "UK":"Use the category ID in a comma separated list",
+                            "SE":"Använd kategori ID i en kommaseparerad lista",
+                            "NO":"Bruk kategori ID i en kommadelt liste"
+                        }
+                    }
+                }
+            },
+            "DESIGN_SETTINGS":{
+                "TITLE":{
+                    "DK":"Template indstillinger",
+                    "UK":"Template settings",
+                    "SE":"Mallinst&auml;llningar",
+                    "NO":"Innstillinger for designmal",
+                    "DE":"Template-Einstellungen"
+                },
+                "SETTINGS":{
+                    "SETTINGS_SHOW_BREADCRUMB":{
+                        "TYPE":"DROPDOWN",
+                        "TITLE":{
+                            "DK":"Vis navigationslinje (breadcrumb)",
+                            "UK":"Show navigation bar (breadcrumb)",
+                            "SE":"Visa navigationslinje (breadcrumb)",
+                            "NO":"Vis sidenavigering (breadcrumb)",
+                            "DE":"Zeige Navigation (Brotkrumen)"
+                        },
+                        "OPTIONS":{
+                            "true": {
+                                "TITLE": {
+                                    "DK":"Ja",
+                                    "UK":"Yes",
+                                    "SE":"Ja",
+                                    "NO":"Ja",
+                                    "DE":"Ja"
+                                }
+                            },
+                            "false": {
+                                "TITLE": {
+                                    "DK":"Nej",
+                                    "UK":"No",
+                                    "SE":"Nej",
+                                    "NO":"Nei",
+                                    "DE":"Nein"
+                                }
+                            }
+                        }
+                    },
+                    "SETTINGS_SHOW_SEARCH":{
+                        "TYPE":"DROPDOWN",
+                        "TITLE":{
+                            "DK":"Vis søgefelt",
+                            "UK":"Show search field",
+                            "SE":"Visa s&ouml;kf&auml;lt",
+                            "NO":"Vis s&oslash;kefelt",
+                            "DE":"Zeige Suchfeld"
+                        },
+                        "OPTIONS":{
+                            "true": {
+                                "TITLE": {
+                                    "DK":"Ja",
+                                    "UK":"Yes",
+                                    "SE":"Ja",
+                                    "NO":"Ja",
+                                    "DE":"Ja"
+                                }
+                            },
+                            "false": {
+                                "TITLE": {
+                                    "DK":"Nej",
+                                    "UK":"No",
+                                    "SE":"Nej",
+                                    "NO":"Nei",
+                                    "DE":"Nein"
+                                }
+                            }
+                        }
+                    },
+                    "SETTINGS_SHOW_CART":{
+                        "TYPE":"DROPDOWN",
+                        "MODULE":"SHOP",
+                        "TITLE":{
+                            "DK":"Vis lille indkøbskurv",
+                            "UK":"Show small cart",
+                            "SE":"Visa varukorg (liten ikon)",
+                            "NO":"Vis handlekurv (lite ikon)",
+                            "DE":"Zeige kleines Warenkorb-Ikon"
+                        },
+                        "OPTIONS":{
+                            "true": {
+                                "TITLE": {
+                                    "DK":"Ja",
+                                    "UK":"Yes",
+                                    "SE":"Ja",
+                                    "NO":"Ja",
+                                    "DE":"Ja"
+                                }
+                            },
+                            "false": {
+                                "TITLE": {
+                                    "DK":"Nej",
+                                    "UK":"No",
+                                    "SE":"Nej",
+                                    "NO":"Nei",
+                                    "DE":"Nein"
+                                }
+                            }
+                        }
+                    },
+                    "SETTINGS_SHOW_PRINT":{
+                        "TYPE":"DROPDOWN",
+                        "TITLE":{
+                            "DK":"Vis printvenlig ikon",
+                            "UK":"Show printer-friendly icon",
+                            "SE":"Visa utskriftsv&auml;nlig sida",
+                            "NO":"Vis printikon",
+                            "DE":"Zeige Druck-Ikon"
+                        },
+                        "OPTIONS":{
+                            "true": {
+                                "TITLE": {
+                                    "DK":"Ja",
+                                    "UK":"Yes",
+                                    "SE":"Ja",
+                                    "NO":"Ja",
+                                    "DE":"Ja"
+                                }
+                            },
+                            "false": {
+                                "TITLE": {
+                                    "DK":"Nej",
+                                    "UK":"No",
+                                    "SE":"Nej",
+                                    "NO":"Nei",
+                                    "DE":"Nein"
+                                }
+                            }
+                        }
+                    },
+                    "SETTINGS_SHOW_SITEMAP": {
+                        "TYPE": "DROPDOWN",
+                        "TITLE": {
+                            "DK": "Vis sitemap link",
+                            "UK": "Show sitemap link",
+                            "SE": "Visa sitemap l&auml;nk",
+                            "NO": "Vis sitemap link",
+                            "DE": "Zeige Sitemap"
+                        },
+                        "OPTIONS":{
+                            "true": {
+                                "TITLE": {
+                                    "DK":"Ja",
+                                    "UK":"Yes",
+                                    "SE":"Ja",
+                                    "NO":"Ja",
+                                    "DE":"Ja"
+                                }
+                            },
+                            "false": {
+                                "TITLE": {
+                                    "DK":"Nej",
+                                    "UK":"No",
+                                    "SE":"Nej",
+                                    "NO":"Nei",
+                                    "DE":"Nein"
+                                }
+                            }
+                        }
+                    },
+                    "SETTINGS_TYPE_LANGUAGE":{
+                        "TYPE":"DROPDOWN",
+                        "TITLE":{
+                            "DK":"Sprog dropdown",
+                            "UK":"Language dropdown",
+                            "SE":"Spr&aring;k dropdown",
+                            "NO":"Spr&aring;kvisning",
+                            "DE":"Sprachen-Dropdown"
+                        },
+                        "OPTIONS":{
+                            "FLAG": {
+                                "TITLE": {
+                                    "DK":"Flag",
+                                    "UK":"Flag",
+                                    "SE":"Flagga",
+                                    "NO":"Flagg",
+                                    "DE":"Flagge"
+                                }
+                            },
+                            "BOTH": {
+                                "TITLE": {
+                                    "DK":"Flag og tekst",
+                                    "UK":"Flag and text",
+                                    "SE":"Flagga och text",
+                                    "NO":"Flagg og tekst",
+                                    "DE":"Flagge und Text"
+                                }
+                            },
+                            "TEXT": {
+                                "TITLE": {
+                                    "DK":"Tekst",
+                                    "UK":"Text",
+                                    "SE":"Text",
+                                    "NO":"Tekst",
+                                    "DE":"Text"
+                                }
+                            }
+                        }
+                    },
+                    "SETTINGS_THUMBNAIL_QUALITY":{
+                        "TYPE":"DROPDOWN",
+                        "TITLE":{
+                            "DK":"Thumbnail kvalitet",
+                            "UK":"Thumbnail quality",
+                            "SE":"Thumbnail kvalitet",
+                            "NO":"Thumbnail kvalitet",
+                            "DE":"Thumbnailqualit&auml;t"
+                        },
+                        "OPTIONS":{
+                            "100": {
+                                "TITLE": {
+                                    "DK":"100 %",
+                                    "UK":"100 %",
+                                    "SE":"100 %",
+                                    "NO":"100 %"
+                                }
+                            },
+                            "95": {
+                                "TITLE": {
+                                    "DK":"95 %",
+                                    "UK":"95 %",
+                                    "SE":"95 %",
+                                    "NO":"95 %"
+                                }
+                            },
+                            "90": {
+                                "TITLE": {
+                                    "DK":"90 %",
+                                    "UK":"90 %",
+                                    "SE":"90 %",
+                                    "NO":"90 %"
+                                }
+                            },
+                            "85": {
+                                "TITLE": {
+                                    "DK":"85 %",
+                                    "UK":"85 %",
+                                    "SE":"85 %",
+                                    "NO":"85 %"
+                                }
+                            },
+                            "80": {
+                                "TITLE": {
+                                    "DK":"80 %",
+                                    "UK":"80 %",
+                                    "SE":"80 %",
+                                    "NO":"80 %"
+                                }
+                            }
+                        },
+                        "HINT": {
+                            "DK": "Vi anbefaler en komprimering p&aring; ca. 85 %. For at generere nye thumbnails, skal du nulstille alle thumbnails under Indstillinger > Webshopindstillinger > Nulstilling.",
+                            "UK": "We recommend a compression of approximately 85 %. To generate new thumbnails, reset all thumbnails in Settings > Store settings > Resetting.",
+                            "SE": "Vi rekommenderar en kompression av cirka 85 %. Att generera nya miniatyrer, &aring;terst&auml;lla alla miniatyrer i Inst&auml;llningar > Shopinst&auml;llningar > Nollst&auml;llning.",
+                            "NO": "Vi anbefaler en komprimering p&aring; ca. 85 %. For &aring; generere nye miniatyrbilder, skal du nullstille alle miniatyrbilder under Innstillinger > Butikkinnstillinger > Nullstilling.",
+                            "DE": "Wir empfehlen eine Kompressionsrate von 85%. Um neue Thumbnails zu ertellen,im Kontrollzentrum -> Einstellungen zur&uuml;cksetzen."
+                        }
+                    },
+                    "SETTINGS_PRODUCTLIST_EXPANDED": {
+                        "TYPE": "DROPDOWN",
+                        "TITLE": {
+                            "DK": "Bred produktliste",
+                            "UK": "Expanded productlist",
+                            "SE": "Bred produktlista",
+                            "NO": "Bred produktliste"
+                        },
+                        "OPTIONS":{
+                            "true": {
+                                "TITLE": {
+                                    "DK":"Ja",
+                                    "UK":"Yes",
+                                    "SE":"Ja",
+                                    "NO":"Ja"
+                                }
+                            },
+                            "false": {
+                                "TITLE": {
+                                    "DK":"Nej",
+                                    "UK":"No",
+                                    "SE":"Nej",
+                                    "NO":"Nei"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "COOKIE_SETTINGS":{
+                "TITLE":{
+                    "DK":"Cookie-boks indstillinger",
+                    "UK":"Cookie box settings",
+                    "SE":"Cookie inst&auml;llningar",
+                    "NO":"Cookie innstillinger",
+                    "DE":"Cookie-Einstellungen"
+                },
+                "SETTINGS":{
+                    "COOKIE_PLACEMENT":{
+                        "TYPE":"DROPDOWN",
+                        "TITLE":{
+                            "DK":"Placering",
+                            "UK":"Placement",
+                            "SE":"Placering",
+                            "NO":"Plassering",
+                            "DE":"Platzierung"
+                        },
+                        "OPTIONS":{
+                            "top": {
+                                "TITLE": {
+                                    "DK": "Top",
+                                    "UK": "Top",
+                                    "SE": "Topp",
+                                    "DE": "Oben",
+                                    "NO": "Øverst (full bredde)"
+                                }
+                            },
+                            "top-static": {
+                                "TITLE": {
+                                    "DK":"Top fast",
+                                    "UK":"Top static",
+                                    "SE":"Topp statisk",
+                                    "DE":"Top statisch",
+                                    "NO":"Statisk øverst (full bredde)"
+                                }
+                            },
+                            "top-left": {
+                                "TITLE": {
+                                    "DK":"Top venstre",
+                                    "UK":"Top left",
+                                    "SE":"&#xD6;vre v&#xE4;nstra",
+                                    "DE":"Oben links",
+                                    "NO":"Øverst til venstre"
+                                }
+                            },
+                            "top-right": {
+                                "TITLE": {
+                                    "DK":"Top h&oslash;jre",
+                                    "UK":"Top right",
+                                    "SE":"&#xD6;verst till h&#xF6;ger",
+                                    "DE":"Oben rechts",
+                                    "NO":"Øverst til h&#xF8;yre"
+                                }
+                            },
+                            "bottom": {
+                                "TITLE": {
+                                    "DK":"Bund",
+                                    "UK":"Bottom",
+                                    "SE":"Nederst",
+                                    "DE":"Unten",
+                                    "NO":"Nederst (full bredde)"
+                                }
+                            },
+                            "bottom-left": {
+                                "TITLE": {
+                                    "DK":"Bund venstre",
+                                    "UK":"Bottom left",
+                                    "SE":"Nederst till v&#xE4;nster",
+                                    "DE":"Unten links",
+                                    "NO":"Nederst til venstre"
+                                }
+                            },
+                            "bottom-right": {
+                                "TITLE": {
+                                    "DK":"Bund h&oslash;jre",
+                                    "UK":"Bottom right",
+                                    "SE":"Nederst til v&#xE4;nstra",
+                                    "DE":"Unten rechts",
+                                    "NO":"Nederst til høyre"
+                                }
+                            }
+                        }
+                    },
+                    "COOKIE_BACKGROUND_COLOR":{
+                        "TYPE":"COLOR_PICKER",
+                        "TITLE":{
+                            "DK":"Baggrundsfarve for boks",
+                            "UK":"Box background color",
+                            "SE":"Bakgrundsf&auml;rg, box",
+                            "NO":"Bakgrunnsfarge for boks",
+                            "DE":"Hintergrundfarbe"
+                        },
+                        "TO_SCSS":"TRUE"
+                    },
+                    "COOKIE_FONT_COLOR":{
+                        "TYPE":"COLOR_PICKER",
+                        "TITLE":{
+                            "DK":"Tekst farve for boks",
+                            "UK":"Box font color",
+                            "SE":"Textf&auml;rg, box",
+                            "NO":"Tekstfarge for boks",
+                            "DE":"Schriftfarbe"
+                        },
+                        "TO_SCSS":"TRUE"
+                    },
+                    "COOKIE_BUTTON_BACKGROUND_COLOR":{
+                        "TYPE":"COLOR_PICKER",
+                        "TITLE":{
+                            "DK":"Knap baggrundsfarve",
+                            "UK":"Button background color",
+                            "SE":"Knap bakgrundsf&auml;rg",
+                            "NO":"Bakgrunnsfarge på knapp",
+                            "DE":"Knopfhintergrundfarbe"
+                        },
+                        "TO_SCSS":"TRUE"
+                    },
+                    "COOKIE_BUTTON_FONT_COLOR":{
+                        "TYPE":"COLOR_PICKER",
+                        "TITLE":{
+                            "DK":"Knap tekst farve",
+                            "UK":"Button text color",
+                            "SE":"Knap textf&auml;rg",
+                            "NO":"Tekstfarge på knapp",
+                            "DE":"Knopftextfarbe"
+                        },
+                        "TO_SCSS":"TRUE"
+                    }
+                }
+            },
+            "FOOTER_SETTINGS": {
+                "TITLE": {
+                    "DK": "Bund information",
+                    "UK": "Footer information",
+                    "SE": "Bund information",
+                    "NO": "Footer informasjon",
+                    "DE": "Footer-Informationen"
+                },
+                "SETTINGS": {
+                    "SETTINGS_SHOW_CONTACT_ADDRESS": {
+                        "TYPE": "DROPDOWN",
+                        "TITLE": {
+                            "DK": "Vis adresse",
+                            "UK": "Show address",
+                            "SE": "Visa adress",
+                            "NO": "Vis adresse",
+                            "DE": "Zeige Adresse"
+                        },
+                        "OPTIONS": {
+                            "true": {
+                                "TITLE": {
+                                    "DK": "Ja",
+                                    "UK": "Yes",
+                                    "SE": "Ja",
+                                    "NO": "Ja",
+                                    "DE": "Ja"
+                                }
+                            },
+                            "false": {
+                                "TITLE": {
+                                    "DK": "Nej",
+                                    "UK": "No",
+                                    "SE": "Nej",
+                                    "NO": "Nei",
+                                    "DE": "Nein"
+                                }
+                            }
+                        }
+                    },
+                    "SETTINGS_SHOW_CONTACT_PHONE": {
+                        "TYPE": "DROPDOWN",
+                        "TITLE": {
+                            "DK": "Vis telefonnr.",
+                            "UK": "Show phone number",
+                            "SE": "Visa telefon nr.",
+                            "NO": "Vis telefonnummer",
+                            "DE": "Zeige Teleofnnr."
+                        },
+                        "OPTIONS": {
+                            "true": {
+                                "TITLE": {
+                                    "DK": "Ja",
+                                    "UK": "Yes",
+                                    "SE": "Ja",
+                                    "NO": "Ja",
+                                    "DE": "Ja"
+                                }
+                            },
+                            "false": {
+                                "TITLE": {
+                                    "DK": "Nej",
+                                    "UK": "No",
+                                    "SE": "Nej",
+                                    "NO": "Nei",
+                                    "DE": "Nein"
+                                }
+                            }
+                        }
+                    },
+                    "SETTINGS_SHOW_CONTACT_EMAIL": {
+                        "TYPE": "DROPDOWN",
+                        "TITLE": {
+                            "DK": "Vis e-mail",
+                            "UK": "Show e-mail",
+                            "SE": "Visa e-post",
+                            "NO": "Vis e-postadresse",
+                            "DE": "Zeige E-Mail"
+                        },
+                        "OPTIONS": {
+                            "true": {
+                                "TITLE": {
+                                    "DK": "Ja",
+                                    "UK": "Yes",
+                                    "SE": "Ja",
+                                    "NO": "Ja",
+                                    "DE": "Ja"
+                                }
+                            },
+                            "false": {
+                                "TITLE": {
+                                    "DK": "Nej",
+                                    "UK": "No",
+                                    "SE": "Nej",
+                                    "NO": "Nei",
+                                    "DE": "Nein"
+                                }
+                            }
+                        }
+                    },
+                    "SETTINGS_SHOW_CONTACT_VAT_NUMBER": {
+                        "TYPE": "DROPDOWN",
+                        "TITLE": {
+                            "DK": "Vis cvr-nummer",
+                            "UK": "Show vat number",
+                            "SE": "Visa org. nr.",
+                            "NO": "Vis organisasjonsnummer",
+                            "DE": "Zeige USt-ID"
+                        },
+                        "OPTIONS": {
+                            "true": {
+                                "TITLE": {
+                                    "DK": "Ja",
+                                    "UK": "Yes",
+                                    "SE": "Ja",
+                                    "NO": "Ja",
+                                    "DE": "Ja"
+                                }
+                            },
+                            "false": {
+                                "TITLE": {
+                                    "DK": "Nej",
+                                    "UK": "No",
+                                    "SE": "Nej",
+                                    "NO": "Nei",
+                                    "DE": "Nein"
+                                }
+                            }
+                        }
+                    },
+                    "SETTINGS_SHOW_FOOTER_USER":{
+                        "TYPE":"DROPDOWN",
+                        "TITLE":{
+                          "DK": "Vis bruger sektion",
+                          "UK": "Show user section",
+                          "SE": "Visa användaravsnitt",
+                          "NO": "Vis brukerdelen"
+                        },
+                        "OPTIONS":{
+                            "true": {
+                                "TITLE": {
+                                    "DK": "Ja",
+                                    "UK": "Yes",
+                                    "SE": "Ja",
+                                    "NO": "Ja"
+                                }
+                            },
+                            "false": {
+                                "TITLE": {
+                                    "DK": "Nej",
+                                    "UK": "No",
+                                    "SE": "Nej",
+                                    "NO": "Nei"
+                                }
+                            }
+                        }
+                    },
+                    "SETTINGS_SHOW_FOOTER_NAV":{
+                        "TYPE":"DROPDOWN",
+                        "TITLE":{
+                          "DK": "Vis sidetræ sektion",
+                          "UK": "Show page tree section",
+                          "SE": "Visa sidträdsavsnitt",
+                          "NO": "Vis sidetreet"
+                        },
+                        "OPTIONS":{
+                            "true": {
+                                "TITLE": {
+                                    "DK": "Ja",
+                                    "UK": "Yes",
+                                    "SE": "Ja",
+                                    "NO": "Ja"
+                                }
+                            },
+                            "false": {
+                                "TITLE": {
+                                    "DK": "Nej",
+                                    "UK": "No",
+                                    "SE": "Nej",
+                                    "NO": "Nei"
+                                }
+                            }
+                        }
+                    },
+                    "SETTINGS_SHOW_FOOTER_NEWS_SIGNUP":{
+                        "TYPE":"DROPDOWN",
+                        "TITLE":{
+                          "DK": "Vis tilmelding af nyhedsbrev",
+                          "UK": "Show newsletter subscription",
+                          "SE": "Visa prenumeration på nyhetsbrev",
+                          "NO": "Vis abonnement på nyhetsbrev"
+                        },
+                        "OPTIONS":{
+                            "true": {
+                                "TITLE": {
+                                    "DK": "Ja",
+                                    "UK": "Yes",
+                                    "SE": "Ja",
+                                    "NO": "Ja"
+                                }
+                            },
+                            "false": {
+                                "TITLE": {
+                                    "DK": "Nej",
+                                    "UK": "No",
+                                    "SE": "Nej",
+                                    "NO": "Nei"
+                                }
+                            }
+                        }
+                    },
+                    "SETTINGS_SHOW_CART_ICONS_FOOTER":{
+                        "TYPE":"DROPDOWN",
+                        "TITLE":{
+                          "DK": "Vis betalingskort i bunden",
+                          "UK": "Show payment icons at the bottom",
+                          "SE": "Visa betalkort längst ner",
+                          "NO": "Vis betalingskort (footer)",
+                          "DE": "Zeigen Sie die Zahlungskarte unten an"
+                        },
+                        "OPTIONS":{
+                            "true": {
+                                "TITLE": {
+                                    "DK": "Ja",
+                                    "UK": "Yes",
+                                    "SE": "Ja",
+                                    "NO": "Ja",
+                                    "DE": "Ja"
+                                }
+                            },
+                            "false": {
+                                "TITLE": {
+                                    "DK": "Nej",
+                                    "UK": "No",
+                                    "SE": "Nej",
+                                    "NO": "Nei",
+                                    "DE": "Nein"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "EMAIL_SETTINGS": {
+                "TITLE": {
+                    "DK": "E-mail indstillinger",
+                    "UK": "Email settings",
+                    "SE": "E-postinst&auml;llningar",
+                    "NO": "E-postinnstillinger",
+                    "DE": "Email Einstellungen"
+                },
+                "SETTINGS": {
+                    "EMAIL_COLOR_BACKGROUND": {
+                        "TYPE": "COLOR_PICKER",
+                        "TITLE": {
+                            "DK": "Baggrundsfarve",
+                            "UK": "Background color",
+                            "SE": "Bakgrundsf&auml;rg",
+                            "NO": "Bakgrunnsfarge",
+                            "DE": "Hintergrundfarbe"
+                        }
+                    },
+                    "EMAIL_COLOR_LINKS": {
+                        "TYPE": "COLOR_PICKER",
+                        "TITLE": {
+                            "DK": "Link og highlight farve",
+                            "UK": "Link and highlight color",
+                            "SE": "L&auml;nk- och markeringsf&auml;rg",
+                            "NO": "Link- og highlight farge",
+                            "DE": "Link und Highlight-Farbe"
+                        }
+                    },
+                    "EMAIL_FOOTER_COLOR_BACKGROUND": {
+                        "TYPE": "COLOR_PICKER",
+                        "TITLE": {
+                            "DK": "Baggrundsfarve for bund",
+                            "UK": "Footer background color",
+                            "SE": "Bakgrundsf&auml;rg, botten",
+                            "NO": "Bakgrunnsfarge i footer",
+                            "DE": "Hintergrundfarbe (Footer)"
+                        }
+                    },
+                    "EMAIL_FOOTER_COLOR": {
+                        "TYPE": "COLOR_PICKER",
+                        "TITLE": {
+                            "DK": "Tekst farve for bund",
+                            "UK": "Footer font color",
+                            "SE": "Textf&auml;rg, botten",
+                            "NO": "Skriftfarge i footer",
+                            "DE": "Schriftfarbe (Footer)"
+                        }
+                    },
+
+                    "EMAIL_FONT_FAMILY_BASE": {
+                        "TYPE": "DROPDOWN",
+                        "TITLE": {
+                            "DK": "Skrifttype generel",
+                            "UK": "Base font",
+                            "SE": "Generellt teckensnitt",
+                            "NO": "Generell skrifttype",
+                            "DE": "Basis Schriftart"
+                        },
+                        "OPTIONS": {
+                            "'Arial', 'Helvetica Neue', 'Helvetica', sans-serif":{
+                                "TITLE": {
+                                    "DK": "Arial, Helvetica Neue, Helvetica, sans-serif",
+                                    "UK": "Arial, Helvetica Neue, Helvetica, sans-serif"
+                                }
+                            },
+                            "'Arial Black', 'Arial Bold','Gadget', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Arial Black, Arial Bold, Gadget, sans-serif",
+                                    "UK": "Arial Black, Arial Bold, Gadget, sans-serif"
+                                }
+                            },
+                            "'Courier New', 'Courier', monospace": {
+                                "TITLE": {
+                                    "DK": "Courier New, Courier, monospace",
+                                    "UK": "Courier New, Courier, monospace"
+                                }
+                            },
+                            "'Georgia', 'Times', 'Times New Roman', serif": {
+                                "TITLE": {
+                                    "DK": "Georgia, Times, Times New Roman, serif",
+                                    "UK": "Georgia, Times, Times New Roman, serif"
+                                }
+                            },
+                            "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Helvetica, Arial, sans-serif",
+                                    "UK": "Helvetica, Arial, sans-serif"
+                                }
+                            },
+                            "'Impact', 'Charcoal', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Impact, Charcoal, sans-serif",
+                                    "UK": "Impact, Charcoal, sans-serif"
+                                }
+                            },
+                            "'Lucida Console', 'Monaco', monospace": {
+                                "TITLE": {
+                                    "DK": "Lucida Console, Monaco, monospace",
+                                    "UK": "Lucida Console, Monaco, monospace"
+                                }
+                            },
+                            "'Lucida Sans Unicode', 'Lucida Grande', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Lucida Sans Unicode, Lucida Grande, sans-serif",
+                                    "UK": "Lucida Sans Unicode, Lucida Grande, sans-serif"
+                                }
+                            },
+                            "'Palatino Linotype', 'Book Antiqua', 'Palatino', serif": {
+                                "TITLE": {
+                                    "DK": "Palatino Linotype, Book Antiqua, Palatino, serif",
+                                    "UK": "Palatino Linotype, Book Antiqua, Palatino, serif"
+                                }
+                            },
+                            "'Tahoma', 'Geneva', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Tahoma, Geneva, sans-serif",
+                                    "UK": "Tahoma, Geneva, sans-serif"
+                                }
+                            },
+                            "'Times New Roman', 'Times', serif": {
+                                "TITLE": {
+                                    "DK": "Times New Roman, Times, serif",
+                                    "UK": "Times New Roman, Times, serif"
+                                }
+                            },
+                            "'Trebuchet MS', 'Helvetica', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Trebuchet MS, Helvetica, sans-serif",
+                                    "UK": "Trebuchet MS, Helvetica, sans-serif"
+                                }
+                            },
+                            "'Verdana', 'Geneva', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Verdana, Geneva, sans-serif",
+                                    "UK": "Verdana, Geneva, sans-serif"
+                                }
+                            }
+                        },
+                        "TO_SCSS": "TRUE"
+                    },
+                    "EMAIL_FONT_FAMILY_HEADLINE": {
+                        "TYPE": "DROPDOWN",
+                        "TITLE": {
+                            "DK": "Skrifttype overskrift",
+                            "UK": "Headline font",
+                            "SE": "Teckensnitt, &ouml;verskrift",
+                            "NO": "Skrifttype på overskrift",
+                            "DE": "&Uuml;berschriften Schriftart"
+                        },
+                        "OPTIONS": {
+                            "'Arial', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Arial, sans-serif",
+                                    "UK": "Arial, sans-serif"
+                                }
+                            },
+                            "'Arial Black', 'Arial Bold','Gadget', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Arial Black, Arial Bold, Gadget, sans-serif",
+                                    "UK": "Arial Black, Arial Bold, Gadget, sans-serif"
+                                }
+                            },
+                            "'Courier New', 'Courier', monospace": {
+                                "TITLE": {
+                                    "DK": "Courier New, Courier, monospace",
+                                    "UK": "Courier New, Courier, monospace"
+                                }
+                            },
+                            "'Georgia', 'Times', 'Times New Roman', serif": {
+                                "TITLE": {
+                                    "DK": "Georgia, Times, Times New Roman, serif",
+                                    "UK": "Georgia, Times, Times New Roman, serif"
+                                }
+                            },
+                            "'Helvetica Neue', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Helvetica, sans-serif",
+                                    "UK": "Helvetica, sans-serif"
+                                }
+                            },
+                            "'Impact', 'Charcoal', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Impact, Charcoal, sans-serif",
+                                    "UK": "Impact, Charcoal, sans-serif"
+                                }
+                            },
+                            "'Lucida Console', 'Monaco', monospace": {
+                                "TITLE": {
+                                    "DK": "Lucida Console, Monaco, monospace",
+                                    "UK": "Lucida Console, Monaco, monospace"
+                                }
+                            },
+                            "'Lucida Sans Unicode', 'Lucida Grande', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Lucida Sans Unicode, Lucida Grande, sans-serif",
+                                    "UK": "Lucida Sans Unicode, Lucida Grande, sans-serif"
+                                }
+                            },
+                            "'Palatino Linotype', 'Book Antiqua', 'Palatino', serif": {
+                                "TITLE": {
+                                    "DK": "Palatino Linotype, Book Antiqua, Palatino, serif",
+                                    "UK": "Palatino Linotype, Book Antiqua, Palatino, serif"
+                                }
+                            },
+                            "'Tahoma', 'Geneva', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Tahoma, Geneva, sans-serif",
+                                    "UK": "Tahoma, Geneva, sans-serif"
+                                }
+                            },
+                            "'Times New Roman', 'Times', serif": {
+                                "TITLE": {
+                                    "DK": "Times New Roman, Times, serif",
+                                    "UK": "Times New Roman, Times, serif"
+                                }
+                            },
+                            "'Trebuchet MS', 'Helvetica', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Trebuchet MS, Helvetica, sans-serif",
+                                    "UK": "Trebuchet MS, Helvetica, sans-serif"
+                                }
+                            },
+                            "'Verdana', 'Geneva', sans-serif": {
+                                "TITLE": {
+                                    "DK": "Verdana, Geneva, sans-serif",
+                                    "UK": "Verdana, Geneva, sans-serif"
+                                }
+                            }
+                        },
+                        "TO_SCSS": "TRUE"
+                    },
+
+                    "EMAIL_CONTACT_INFORMATION": {
+                        "TYPE": "DROPDOWN",
+                        "TITLE": {
+                            "DK": "Kontakt information",
+                            "UK": "Contact information",
+                            "SE": "Kontakt information",
+                            "NO": "Kontaktinformasjon",
+                            "DE": "Kontakt Informationen"
+                        },
+                        "OPTIONS": {
+                            "TOP": {
+                                "TITLE": {
+                                    "DK": "Top",
+                                    "UK": "Top",
+                                    "SE": "Toppen",
+                                    "NO": "Øverst",
+                                    "DE": "Oben"
+                                }
+                            },
+                            "BOTTOM": {
+                                "TITLE": {
+                                    "DK": "Bund",
+                                    "UK": "Bottom",
+                                    "SE": "Botten",
+                                    "NO": "Nederst",
+                                    "DE": "Unten"
+                                }
+                            }
+                        }
+                    },
+                    "EMAIL_SOCIAL": {
+                        "TYPE": "DROPDOWN",
+                        "TITLE": {
+                            "DK": "Vis sociale medier",
+                            "UK": "Show social media",
+                            "SE": "Visa sociala medier",
+                            "NO": "Vis sosiale medier",
+                            "DE": "Zeige soziale Medien"
+                        },
+                        "OPTIONS": {
+                            "true": {
+                                "TITLE": {
+                                    "DK": "Ja",
+                                    "UK": "Yes",
+                                    "SE": "Ja",
+                                    "NO": "Ja",
+                                    "DE": "Ja"
+                                }
+                            },
+                            "false": {
+                                "TITLE": {
+                                    "DK": "Nej",
+                                    "UK": "No",
+                                    "SE": "Nej",
+                                    "NO": "Nei",
+                                    "DE": "Nein"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "USP_SETTINGS":{
+        "TITLE": {
+            "DK":"Unikke salgsargumenter",
+            "UK":"Unique selling points",
+            "SE":"Unika försäljningsställen",
+            "NO":"Unike salgspunkt",
+            "DE":"Alleinstellungsmerkmale"
+        },
+        "GROUPS":{
+            "USP_SETTINGS_01":{
+                "TITLE": {
+                    "DK":"Argument 1",
+                    "UK":"Argument 1",
+                    "SE":"Argument 1",
+                    "NO":"Argument 1",
+                    "DE":"Argument 1"
+                },
+                "SETTINGS":{
+                    "USP_SETTINGS_01_ACTIVE": {
+                        "TYPE":"DROPDOWN",
+                        "TITLE": {
+                            "DK":"Aktivér",
+                            "UK":"Activate",
+                            "SE":"Aktivera",
+                            "NO":"Aktivere",
+                            "DE":"Aktivieren Sie"
+                        },
+                        "OPTIONS":{
+                            "true": {
+                                "TITLE": {
+                                    "DK":"Ja",
+                                    "UK":"Yes",
+                                    "SE":"Ja",
+                                    "NO":"Ja",
+                                    "DE":"Ja"
+                                }
+                            },
+                            "false": {
+                                "TITLE": {
+                                    "DK":"Nej",
+                                    "UK":"No",
+                                    "SE":"Nej",
+                                    "NO":"Nei",
+                                    "DE":"Nein"
+                                }
+                            }
+                        }
+                    },
+                    "USP_SETTINGS_01_ICON":{
+                        "TYPE":"DROPDOWN",
+                        "TITLE":{
+                            "DK":"Ikon",
+                            "UK":"Icon",
+                            "SE":"Ikon",
+                            "NO":"Ikon",
+                            "DE":"Symbol"
+                        },
+                        "OPTIONS":{
+                            "check": {
+                                "TITLE":{
+                                    "DK":"Tjek",
+                                    "UK":"Check",
+                                    "SE":"Check",
+                                    "NO":"Sjekk",
+                                    "DE":"Prüfen"
+                                }
+                            },
+                            "package": {
+                                "TITLE": {
+                                    "DK":"Pakke",
+                                    "UK":"Package",
+                                    "SE":"Paket",
+                                    "NO":"Pakke",
+                                    "DE":"Paket"
+                                }
+                            },
+                            "percent": {
+                                "TITLE": {
+                                    "DK":"Procent",
+                                    "UK":"Percentage",
+                                    "SE":"Procentsats",
+                                    "NO":"Prosentdel",
+                                    "DE":"Prozentsatz"
+                                }
+                            },
+                            "truck": {
+                                "TITLE": {
+                                    "DK":"Fragtbil",
+                                    "UK":"Truck",
+                                    "SE":"Lastbil",
+                                    "NO":"Lastebil",
+                                    "DE":"Lastwagen"
+                                }
+                            },
+                            "mapPin": {
+                                "TITLE": {
+                                    "DK":"Kortnål",
+                                    "UK":"Map pin",
+                                    "SE":"Kartnål",
+                                    "NO":"Kartnål",
+                                    "DE":"Kartenstift"
+                                }
+                            },
+                            "award": {
+                                "TITLE": {
+                                    "DK":"Pris",
+                                    "UK":"Award",
+                                    "SE":"Tilldela",
+                                    "NO":"Tildele",
+                                    "DE":"Vergeben"
+                                }
+                            },
+                            "dollarSign": {
+                                "TITLE": {
+                                    "DK":"Dollartegn",
+                                    "UK":"Dollar sign",
+                                    "SE":"Dollartecken",
+                                    "NO":"Dollar tegn",
+                                    "DE":"Dollarzeichen"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "USP_SETTINGS_02":{
+                "TITLE": {
+                    "DK":"Argument 2",
+                    "UK":"Argument 2",
+                    "SE":"Argument 2",
+                    "NO":"Argument 2",
+                    "DE":"Argument 2"
+                },
+                "SETTINGS":{
+                    "USP_SETTINGS_02_ACTIVE": {
+                        "TYPE":"DROPDOWN",
+                        "TITLE": {
+                            "DK":"Aktivér",
+                            "UK":"Activate",
+                            "SE":"Aktivera",
+                            "NO":"Aktivere",
+                            "DE":"Aktivieren Sie"
+                        },
+                        "OPTIONS":{
+                            "true": {
+                                "TITLE": {
+                                    "DK":"Ja",
+                                    "UK":"Yes",
+                                    "SE":"Ja",
+                                    "NO":"Ja",
+                                    "DE":"Ja"
+                                }
+                            },
+                            "false": {
+                                "TITLE": {
+                                    "DK":"Nej",
+                                    "UK":"No",
+                                    "SE":"Nej",
+                                    "NO":"Nei",
+                                    "DE":"Nein"
+                                }
+                            }
+                        }
+                    },
+                    "USP_SETTINGS_02_ICON":{
+                        "TYPE":"DROPDOWN",
+                        "TITLE":{
+                            "DK":"Ikon",
+                            "UK":"Icon",
+                            "SE":"Ikon",
+                            "NO":"Ikon",
+                            "DE":"Symbol"
+                        },
+                        "OPTIONS":{
+                            "check": {
+                                "TITLE":{
+                                    "DK":"Tjek",
+                                    "UK":"Check",
+                                    "SE":"Check",
+                                    "NO":"Sjekk",
+                                    "DE":"Prüfen"
+                                }
+                            },
+                            "package": {
+                                "TITLE": {
+                                    "DK":"Pakke",
+                                    "UK":"Package",
+                                    "SE":"Paket",
+                                    "NO":"Pakke",
+                                    "DE":"Paket"
+                                }
+                            },
+                            "percent": {
+                                "TITLE": {
+                                    "DK":"Procent",
+                                    "UK":"Percentage",
+                                    "SE":"Procentsats",
+                                    "NO":"Prosentdel",
+                                    "DE":"Prozentsatz"
+                                }
+                            },
+                            "truck": {
+                                "TITLE": {
+                                    "DK":"Fragtbil",
+                                    "UK":"Truck",
+                                    "SE":"Lastbil",
+                                    "NO":"Lastebil",
+                                    "DE":"Lastwagen"
+                                }
+                            },
+                            "mapPin": {
+                                "TITLE": {
+                                    "DK":"Kortnål",
+                                    "UK":"Map pin",
+                                    "SE":"Kartnål",
+                                    "NO":"Kartnål",
+                                    "DE":"Kartenstift"
+                                }
+                            },
+                            "award": {
+                                "TITLE": {
+                                    "DK":"Pris",
+                                    "UK":"Award",
+                                    "SE":"Tilldela",
+                                    "NO":"Tildele",
+                                    "DE":"Vergeben"
+                                }
+                            },
+                            "dollarSign": {
+                                "TITLE": {
+                                    "DK":"Dollartegn",
+                                    "UK":"Dollar sign",
+                                    "SE":"Dollartecken",
+                                    "NO":"Dollar tegn",
+                                    "DE":"Dollarzeichen"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "USP_SETTINGS_03":{
+                "TITLE": {
+                    "DK":"Argument 3",
+                    "UK":"Argument 3",
+                    "SE":"Argument 3",
+                    "NO":"Argument 3",
+                    "DE":"Argument 3"
+                },
+                "SETTINGS":{
+                    "USP_SETTINGS_03_ACTIVE": {
+                        "TYPE":"DROPDOWN",
+                        "TITLE": {
+                            "DK":"Aktivér",
+                            "UK":"Activate",
+                            "SE":"Aktivera",
+                            "NO":"Aktivere",
+                            "DE":"Aktivieren Sie"
+                        },
+                        "OPTIONS":{
+                            "true": {
+                                "TITLE": {
+                                    "DK":"Ja",
+                                    "UK":"Yes",
+                                    "SE":"Ja",
+                                    "NO":"Ja",
+                                    "DE":"Ja"
+                                }
+                            },
+                            "false": {
+                                "TITLE": {
+                                    "DK":"Nej",
+                                    "UK":"No",
+                                    "SE":"Nej",
+                                    "NO":"Nei",
+                                    "DE":"Nein"
+                                }
+                            }
+                        }
+                    },
+                    "USP_SETTINGS_03_ICON":{
+                        "TYPE":"DROPDOWN",
+                        "TITLE":{
+                            "DK":"Ikon",
+                            "UK":"Icon",
+                            "SE":"Ikon",
+                            "NO":"Ikon",
+                            "DE":"Symbol"
+                        },
+                        "OPTIONS":{
+                            "check": {
+                                "TITLE":{
+                                    "DK":"Tjek",
+                                    "UK":"Check",
+                                    "SE":"Check",
+                                    "NO":"Sjekk",
+                                    "DE":"Prüfen"
+                                }
+                            },
+                            "package": {
+                                "TITLE": {
+                                    "DK":"Pakke",
+                                    "UK":"Package",
+                                    "SE":"Paket",
+                                    "NO":"Pakke",
+                                    "DE":"Paket"
+                                }
+                            },
+                            "percent": {
+                                "TITLE": {
+                                    "DK":"Procent",
+                                    "UK":"Percentage",
+                                    "SE":"Procentsats",
+                                    "NO":"Prosentdel",
+                                    "DE":"Prozentsatz"
+                                }
+                            },
+                            "truck": {
+                                "TITLE": {
+                                    "DK":"Fragtbil",
+                                    "UK":"Truck",
+                                    "SE":"Lastbil",
+                                    "NO":"Lastebil",
+                                    "DE":"Lastwagen"
+                                }
+                            },
+                            "mapPin": {
+                                "TITLE": {
+                                    "DK":"Kortnål",
+                                    "UK":"Map pin",
+                                    "SE":"Kartnål",
+                                    "NO":"Kartnål",
+                                    "DE":"Kartenstift"
+                                }
+                            },
+                            "award": {
+                                "TITLE": {
+                                    "DK":"Pris",
+                                    "UK":"Award",
+                                    "SE":"Tilldela",
+                                    "NO":"Tildele",
+                                    "DE":"Vergeben"
+                                }
+                            },
+                            "dollarSign": {
+                                "TITLE": {
+                                    "DK":"Dollartegn",
+                                    "UK":"Dollar sign",
+                                    "SE":"Dollartecken",
+                                    "NO":"Dollar tegn",
+                                    "DE":"Dollarzeichen"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "USP_SETTINGS_04":{
+                "TITLE": {
+                    "DK":"Argument 4",
+                    "UK":"Argument 4",
+                    "SE":"Argument 4",
+                    "NO":"Argument 4",
+                    "DE":"Argument 4"
+                },
+                "SETTINGS":{
+                    "USP_SETTINGS_04_ACTIVE": {
+                        "TYPE":"DROPDOWN",
+                        "TITLE": {
+                            "DK":"Aktivér",
+                            "UK":"Activate",
+                            "SE":"Aktivera",
+                            "NO":"Aktivere",
+                            "DE":"Aktivieren Sie"
+                        },
+                        "OPTIONS":{
+                            "true": {
+                                "TITLE": {
+                                    "DK":"Ja",
+                                    "UK":"Yes",
+                                    "SE":"Ja",
+                                    "NO":"Ja",
+                                    "DE":"Ja"
+                                }
+                            },
+                            "false": {
+                                "TITLE": {
+                                    "DK":"Nej",
+                                    "UK":"No",
+                                    "SE":"Nej",
+                                    "NO":"Nei",
+                                    "DE":"Nein"
+                                }
+                            }
+                        }
+                    },
+                    "USP_SETTINGS_04_ICON":{
+                        "TYPE":"DROPDOWN",
+                        "TITLE":{
+                            "DK":"Ikon",
+                            "UK":"Icon",
+                            "SE":"Ikon",
+                            "NO":"Ikon",
+                            "DE":"Symbol"
+                        },
+                        "OPTIONS":{
+                            "check": {
+                                "TITLE":{
+                                    "DK":"Tjek",
+                                    "UK":"Check",
+                                    "SE":"Check",
+                                    "NO":"Sjekk",
+                                    "DE":"Prüfen"
+                                }
+                            },
+                            "package": {
+                                "TITLE": {
+                                    "DK":"Pakke",
+                                    "UK":"Package",
+                                    "SE":"Paket",
+                                    "NO":"Pakke",
+                                    "DE":"Paket"
+                                }
+                            },
+                            "percent": {
+                                "TITLE": {
+                                    "DK":"Procent",
+                                    "UK":"Percentage",
+                                    "SE":"Procentsats",
+                                    "NO":"Prosentdel",
+                                    "DE":"Prozentsatz"
+                                }
+                            },
+                            "truck": {
+                                "TITLE": {
+                                    "DK":"Fragtbil",
+                                    "UK":"Truck",
+                                    "SE":"Lastbil",
+                                    "NO":"Lastebil",
+                                    "DE":"Lastwagen"
+                                }
+                            },
+                            "mapPin": {
+                                "TITLE": {
+                                    "DK":"Kortnål",
+                                    "UK":"Map pin",
+                                    "SE":"Kartnål",
+                                    "NO":"Kartnål",
+                                    "DE":"Kartenstift"
+                                }
+                            },
+                            "award": {
+                                "TITLE": {
+                                    "DK":"Pris",
+                                    "UK":"Award",
+                                    "SE":"Tilldela",
+                                    "NO":"Tildele",
+                                    "DE":"Vergeben"
+                                }
+                            },
+                            "dollarSign": {
+                                "TITLE": {
+                                    "DK":"Dollartegn",
+                                    "UK":"Dollar sign",
+                                    "SE":"Dollartecken",
+                                    "NO":"Dollar tegn",
+                                    "DE":"Dollarzeichen"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

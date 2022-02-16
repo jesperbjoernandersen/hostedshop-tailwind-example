@@ -1,0 +1,29 @@
+.productItem {
+	.type-col {
+		border: 1px solid $design-border-color;
+		
+		.product-transaction,
+		.product-action {
+			background: $design-box-background-color;
+		}
+
+		.product-transaction {
+			border-top: 1px solid $design-border-color;
+		}
+
+		.product-delivery {
+			border-bottom: 1px solid $design-border-color;
+		}
+	}
+
+	.type-row {
+		border: 1px solid $design-border-color;
+		.product-transaction {
+			background: $design-box-background-color;
+		}
+	}
+
+	.m-productlist-price {
+		color: $font-color-primary;
+	}
+}

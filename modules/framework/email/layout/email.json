@@ -1,0 +1,22 @@
+{
+    "TEMPLATE_AUTHOR": "System",
+    "TEMPLATE_DATE": "February 2019",
+    "TEMPLATE_NAME": {
+        "TITLE": {
+            "DK": "E-mail layout",
+            "UK": "E-mail layout",
+            "NO": "E-postoppsett",
+            "SE": "E-postlayout"
+        }
+    },
+    "TEMPLATE_DESCRIPTION": {
+        "TITLE": {
+            "DK": "Standard e-mail layout",
+            "UK": "Default e-mail layout",
+            "NO": "Standard e-postoppsett",
+            "SE": "Standard e-postlayout"
+        }
+    },
+    "TEMPLATE_CONTEXT": "",
+    "TEMPLATE_VERSION": "Version 1.0"
+}

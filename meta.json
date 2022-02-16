@@ -1,0 +1,24 @@
+{
+    "TEMPLATE_AUTHOR": "Bewise",
+    "TEMPLATE_URL": "#",
+    "TEMPLATE_DATE": "March 2021",
+    "TEMPLATE_NAME": {
+        "TITLE": {
+            "DK": "Simpl",
+            "UK": "Simpl",
+            "NO": "Simpl",
+            "SE": "Simpl"
+        }
+    },
+    "TEMPLATE_DESCRIPTION": {
+        "TITLE": {
+            "DK": "Simpl er et simpelt og visuelt flot design. Dine produkter pr&aelig;senteres p&aring; den bedste m&aring;de med et stort forsidebillede og mega menu, der viser dine kategorier p&aring; en overskuelig m&aring;de. Simpl er et 100% responsivt design. <br /><br />Simpl er udarbejdet i samarbejde med Bewise.",
+            "UK": "Simpl is a simple and visually appealing design. Your products will be presented in the best way, with a big slider image and mega menu, that shows off your categories in a easy way. Simpl is a 100% responsive design. <br /><br />Simpl is build together with Bewise.",
+            "NO": "Simpl er et simpelt og visuelt flott design. Produktene dine presenteres p&aring; den beste m&aring;ten med et stort forsidebilde og mega meny, som viser kategoriene dine p&aring; en overskuelig m&aring;te. Simpl er et 100% responsivt design. <br /><br />Simpl er utviklet i samarbeid med Bewise.",
+            "SE": "Simpl &auml;r en enkel och visuellt vacker design. Dina produkter presenteras p&aring; b&auml;sta s&auml;tt med en stor omslagsbild och mega-meny som visar dina kategorier p&aring; ett tydligt s&auml;tt. Simpl &auml;r en 100% responsiv design. <br /><br />Simpl har utarbetats i samarbete med Bewise."
+        }
+    },
+    "DEMO_LINK": "simpl-theme",
+    "PARENT": "template007",
+    "TEMPLATE_VERSION": "2.0.0"
+}

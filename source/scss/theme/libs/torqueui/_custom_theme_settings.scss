@@ -1,0 +1,135 @@
+// ==========================================================================
+// VARIABLE MAPPINGS:
+// Variable mappings for TorqueUI
+// ==========================================================================
+
+
+// ==========================================================================
+// Borders
+// ==========================================================================
+
+$border-radius                      : 0;
+
+
+
+// ==========================================================================
+// Colors
+// ==========================================================================
+
+//
+// General
+//
+
+$color-border                       : $design-border-color;
+
+//
+// Typography
+//
+
+$color-font-base                    : $font-color-primary;
+$color-font-headings                : $font-color-headline;
+$color-font-highlight               : $font-color-link;
+$color-font-small-caps              : dolp($font-color-primary, 10%);
+$color-font-hightlight              : $font-color-link;
+
+
+//
+// Inputs (keep defaults)
+//
+
+$color-input-back                   : #fff;
+$color-input-color                  : #656764;
+$color-input-border                 : #cfcfcf;
+$color-input-back-hover             : #fcfcfc;
+$color-input-back-disabled          : $color-input-back-hover;
+$color-input-color-disabled         : dolp($color-input-color, 30%);
+
+
+//
+// Badges
+//
+
+$color-badge-callout                : $panel-callout-color;
+$color-badge-info                   : $color-info;
+$color-badge-clean                  : transparent;
+$color-badge-warning                : $panel-warning-color;
+$color-badge-danger                 : $panel-danger-color;
+
+
+//
+// Buttons
+//
+
+$color-button-clean                 : $button-default-background-color;
+$color-button-clean-font            : $button-default-font-color;
+$color-button-primary               : $button-primary-background-color;
+$color-button-primary-font          : $button-primary-font-color;
+$color-button-text                  : transparent;
+$color-button-text-font             : $font-color-link;
+
+
+//
+// Symbols
+//
+
+$color-symbol                       : dolp($font-color-primary, 10%);
+$color-symbol-hover                 : $font-color-primary;
+
+
+//
+// Panels
+//
+
+$color-panel-callout                : $panel-callout-color;
+$color-panel-info                   : $color-info;
+$color-panel-default                : $design-box-background-color;
+$color-panel-warning                : $panel-warning-color;
+$color-panel-danger                 : $panel-danger-color;
+$color-panel-border                 : $design-box-background-color;
+$color-panel-border-border          : $design-border-color;
+
+
+//
+// Navs
+//
+
+$color-nav-menu                      : $color-font-headings;
+
+$color-nav-pills                     : $button-default-background-color;
+$color-nav-pills-font                : $button-default-font-color;
+$color-nav-pills-hover               : dolp($button-default-font-color, 8%);
+
+$color-nav-tabs                      : $design-box-background-color;
+$color-nav-tabs-font                 : $font-color-primary;
+$color-nav-tabs-pane                 : $design-box-background-color;
+
+
+//
+// Dropdowns
+//
+
+$color-dropdown                     : $color-default-bck;
+$color-dropdown-border              : $design-border-color;
+$color-dropdown-font                : $font-color-primary;
+
+
+//
+// Pagination
+//
+
+$color-pagination                   : $button-default-background-color;
+$color-pagination-font              : $button-default-font-color;
+
+
+//
+// Lists
+//
+
+$color-list-striped                 : dolp($design-box-background-color, 5%);
+
+
+//
+// Table
+//
+
+$color-table-striped                : $design-box-background-color;

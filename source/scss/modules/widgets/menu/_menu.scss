@@ -1,0 +1,95 @@
+/*
+# Description
+
+## Date last modified
+
+*/
+
+@include from(3) {
+	.navbar {
+		&.navbar-tablet-full {
+			.nav {
+				.dropdown {
+					position: relative;
+
+					.dropdown-menu {
+						position: absolute;
+					}
+				}
+
+			}
+			.navbar-collapse,
+			.navbar-collapse.is-collapsed {
+				display: table-cell;
+				width: 10000000px;
+				padding: 0;
+				opacity: 1;
+
+				.nav {
+					> li {
+						display: -moz-inline-stack;
+						display: inline-block;
+						vertical-align: middle;
+						zoom: 1;
+						float: left;
+
+						> a {
+							float: left;
+						}
+					}
+				}
+			}
+
+			.navbar-toggle {
+				display: none;
+			}
+		}
+	}
+
+	.site-navigation {
+		.item-primary {
+			padding-top: .5em;
+			padding-bottom: .5em;
+		}
+	}
+}
+
+@include from(4) {
+
+	.marker {
+		padding-right: 0px !important;
+
+		.fa-border {
+			border-color: transparent !important;
+			padding-right: 0px;
+			padding-left: 0px;
+			border-right: 0;
+			width: auto;
+		}
+	}
+}
+
+@media (min-width: $grid-large) {
+	.navbar-collapse,
+	.navbar-collapse.is-collapsed {
+		.w-menu-row {
+			display: flex;
+			justify-content: space-between;
+			
+			> .w-menu-col-links {
+				flex-grow: 1;
+
+				> .w-menu-list {
+					display: flex;
+					align-items: flex-start;
+					flex-wrap: wrap;
+				}
+			}
+		
+			> .w-menu-col-cart {
+				width: auto;
+				margin-left: 1em;
+			}
+		}
+	}
+}

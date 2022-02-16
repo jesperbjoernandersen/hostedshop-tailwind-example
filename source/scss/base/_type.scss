@@ -1,0 +1,88 @@
+
+// ==========================================================================
+// Heading
+// ==========================================================================
+
+//
+// Headings at large desktop (scaled up / down via responsive sizes)
+//
+
+$h1                             : 25px;
+$h2                             : 22px;
+$h3                             : 20px;
+$h4                             : 18px;
+$h5                             : 16px;
+$h6                             : 14px;
+
+//
+// Custom font (only loading Raleway normal due to an otherwise heavy mobile load)
+//
+
+$sizes: h1 $h1, h2 $h2, h3 $h3, h4 $h4, h5 $h5, h6 $h6;
+@each $size in $sizes {
+    #{nth($size, 1)}, .#{nth($size, 1)} {
+        @include adjust-font-size-to(nth($size, 2));
+        font-weight: normal;
+        line-height: 1.35em;
+    }
+}
+
+@include from(3) {
+
+    $h1                             : 36px;
+    $h2                             : 30px;
+    $h3                             : 24px;
+    $h4                             : 20px;
+    $h5                             : 18px;
+    $h6                             : 14px;
+
+    //
+    // Custom font (only loading Raleway normal due to an otherwise heavy mobile load)
+    //
+
+    $sizes: h1 $h1, h2 $h2, h3 $h3, h4 $h4, h5 $h5, h6 $h6;
+    @each $size in $sizes {
+        #{nth($size, 1)}, .#{nth($size, 1)} {
+            @include adjust-font-size-to(nth($size, 2));
+            font-weight: normal;
+            line-height: 1.25em;
+        }
+    }
+
+}
+
+@include from(4) {
+
+    $h1                             : 48px;
+    $h2                             : 36px;
+    $h3                             : 30px;
+    $h4                             : 26px;
+    $h5                             : 22px;
+    $h6                             : 14px;
+
+    //
+    // Custom font (only loading Raleway normal due to an otherwise heavy mobile load)
+    //
+
+    $sizes: h1 $h1, h2 $h2, h3 $h3, h4 $h4, h5 $h5, h6 $h6;
+    @each $size in $sizes {
+        #{nth($size, 1)}, .#{nth($size, 1)} {
+            @include adjust-font-size-to(nth($size, 2));
+            font-weight: normal;
+            line-height: 1.25em;
+        }
+    }
+
+}
+
+// ==========================================================================
+// Type
+// ==========================================================================
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.2em;
+}

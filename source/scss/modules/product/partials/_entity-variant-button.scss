@@ -1,0 +1,31 @@
+
+// ==========================================================================
+// Product: variant button: image
+// ==========================================================================
+
+.m-product-variants.m-buttons {
+    .input-group.is-disabled {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+        filter: alpha(opacity=30);
+        -moz-opacity: 0.3;
+        -khtml-opacity: 0.3;
+        opacity: 0.3;
+    }
+}
+
+.variant-button-image {
+    position: relative;
+    float: left;
+
+    input[type='checkbox'] {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 10px;
+        height: 14px;
+        margin: auto;
+        font-size: 1.2em;
+        font-weight: normal;
+    }
+}

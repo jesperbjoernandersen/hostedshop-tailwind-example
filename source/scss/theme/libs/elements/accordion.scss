@@ -1,0 +1,32 @@
+.accordion-section {
+    border: 2px solid $button-default-font-color;
+}
+
+.accordion-btn {
+    font-family: $font-family-base;
+    color: $button-default-background-color;
+    background: $button-default-font-color;
+    border: 2px solid $button-default-font-color;
+    border-color: $button-default-font-color !important;
+    &:hover{
+        color: darken($button-default-background-color, 10%);
+        background: darken($button-default-font-color, 10%);
+        border: 2px solid darken($button-default-font-color, 10%);
+        border-color: darken($button-default-font-color, 10%) !important;
+    }
+}
+
+.closed {
+    .accordion-btn {
+        color: $button-default-font-color;
+        background: $button-default-background-color;
+        border: 2px solid $button-default-background-color;
+        border-color: $button-default-background-color !important;
+        &:hover{
+            color: darken($button-default-background-color, 10%);
+            background: darken($button-default-font-color, 10%);
+            border: 2px solid darken($button-default-font-color, 10%);
+            border-color: darken($button-default-font-color, 10%) !important;
+        }
+    }
+}

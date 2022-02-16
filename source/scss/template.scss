@@ -1,0 +1,23 @@
+// Set charset
+@charset "UTF-8";
+
+// Module dependencies
+@import "compass";
+@import "breakpoint";
+@import "breakpoint-slicer";
+
+// Globals
+@import "globals/settings";
+@import "globals/mixins";
+@import "libs/torqueui/globals/_mixins_template";
+@import "libs/material/material";
+
+// Template
+@import "template/simpl";
+
+// Required
+@import "template/modules/widgets/checkout/checkout";
+@import "template/modules/widgets/cookie/cookie";
+@import "template/modules/product/partials/list-js-filter";
+@import "libs/elements/accordion";
+@import "libs/elements/switch";

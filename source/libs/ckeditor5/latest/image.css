@@ -1,0 +1,63 @@
+.ck-content .image {
+    display: table;
+    clear: both;
+}
+
+.ck-content img,
+.ck-content .image > img {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+}
+
+.ck-content .image > figcaption {
+	color: #333;
+	background-color: #f7f7f7;
+	padding: .6em;
+	font-size: .75em;
+}
+
+.ck-content .image-inline {
+    display: inline-flex;
+    max-width: 100%;
+    align-items: flex-start;
+}
+
+.ck-content .image-inline > img {
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 100%;
+}
+
+.ck-content .image-style-align-left,
+.ck-content .image-style-align-center,
+.ck-content .image-style-align-right,
+.ck-content .image-style-block-align-right,
+.ck-content .image-style-block-align-left {
+    clear: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.ck-content .image-style-align-left {
+    float: left;
+    margin-right: 1em;
+}
+
+.ck-content .image-style-align-center {
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.ck-content .image-style-align-right {
+    float: right;
+    margin-left: 1em;
+}
+
+.ck-content .image-style-block-align-right {
+    margin-left: auto;
+}
+
+.ck-content .image-style-block-align-left {
+    margin-right: auto;
+}

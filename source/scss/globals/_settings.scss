@@ -1,0 +1,40 @@
+//
+// Settings
+// -----------------------------------------------------------------------------
+
+// ==========================================================================
+// Responsive settings from Torque UI Pack
+// ==========================================================================
+
+//
+// Responsive breakpoints
+//
+
+$grid-default                       : 480px;
+
+$grid-medium                        : 768px;
+
+$grid-large                         : 960px;
+
+$grid-xlarge                        : 1280px;
+
+// ==========================================================================
+// Breakpoint slicer
+// Resource: https://github.com/lolmaus/breakpoint-slicer
+// ==========================================================================
+
+//
+// Config
+//
+
+$slicer-anti-overlap-corrections: -1px;
+
+//
+// Slices
+//
+
+$slicer-breakpoints: 0 $grid-default $grid-medium $grid-large $grid-xlarge;
+
+// Breakpoint:   0                 320px     768px     960px       1280px
+//				 |-------------------|---------|---------|-----------|--------->
+// Slice #:                1              2         3          4          5

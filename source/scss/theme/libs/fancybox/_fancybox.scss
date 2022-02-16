@@ -1,0 +1,43 @@
+.fancybox-skin {
+	.fancybox-close {
+		color: $button-default-background-color;
+
+		&:hover,
+	    &:focus {
+	        color: dolp($button-default-background-color,5%);
+	    }
+
+		.fa-inverse {
+			color: $button-default-font-color;
+		}
+	}
+
+	.fancybox-prev,
+	.fancybox-next {
+
+		.fa-circle {
+        	color: $button-default-background-color;
+        }
+
+		.fa-inverse {
+			color: $button-default-font-color;
+		}
+
+		> span {
+			background: none;
+
+			&:hover,
+		    &:focus {
+
+		    	.fa-circle {
+		        	color: dolp($button-default-background-color,5%);
+		        }
+		    }
+		}
+	}
+
+	.fancybox-title.fancybox-title-inside-wrap {
+		padding: 0.5em;
+		text-align: center;
+	}
+}

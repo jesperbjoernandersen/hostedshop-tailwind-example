@@ -1,0 +1,165 @@
+
+$brand-color: #5a78ff;
+$passive-color: #3c3246;
+$shadow-color: rgba($brand-color, 0.2);
+$border-radius: 6px;
+
+.w-checkout-option--onpay-mobilepay .w-checkout-button {
+    &.loading::before {
+        background-color: $brand-color;
+    }
+}
+.w-checkout--onpay-mobilepay {
+    strong, span, label {
+        color: $passive-color;
+    }
+    input[type=text], 
+    textarea, 
+    button {
+        border-radius: $border-radius;
+    }
+    .modal-header > .fa.fa-times {
+        background-color: $passive-color;
+    }
+    .terms,  
+    .delivery-method-header,
+    .droppoint,
+    .conditions .input-group:hover .material {
+        &-checkbox,
+        &-radio {
+            box-shadow: 0 0 0 8px $shadow-color, 0 0 0 8px inset $shadow-color;
+        }
+    }
+    .material {
+        &-radio {
+            @include material-input(
+                $type: 'radio', 
+                $active-color: $brand-color, 
+                $passive-color: $passive-color, 
+                $shadow-color: $shadow-color
+            );
+        }
+        &-checkbox {
+            @include material-input(
+                $type: 'checkbox', 
+                $active-color: $brand-color, 
+                $passive-color: $passive-color, 
+                $shadow-color: $shadow-color
+            );
+        }
+    }
+    .droppoint-active .empty-location {
+        background: $brand-color;
+        border-radius: 0 0 6px 6px;
+        color: #fff;
+        .random-choice {
+            display: flex;
+            margin-top: 8px;
+            .material-radio > input:checked {
+                border-color: #fff;
+            }
+            .material-radio > input[type=radio]:checked ~ .material-marker {
+                background-color: #fff;
+            }
+            &-label {
+                color: inherit;
+                margin-left: 4px;
+            }
+        }
+    }
+    #customerNoticeDelivery,
+    #customerNotice,
+    .droppoint-result,
+    .empty-title,
+    .target-container,
+    .country-select,
+    .delivery-method-header,
+    .change-delivery,
+    .change-droppoint {
+        border-radius: $border-radius;
+    }
+    .modal-container .modal-content .w-checkout-delivery {
+        .target-container.open,
+        .droppoint-active .droppoint-result,
+        .delivery-method.active .delivery-method-header {
+            border: 2px solid $passive-color;
+            border-radius: $border-radius;
+        }
+        .delivery-method.active.droppoint-method {
+            .delivery-method-header {
+                border-radius: $border-radius $border-radius 0 0;
+                border-bottom: 0;
+                margin-bottom: 0;
+            }
+            .droppoint-active .droppoint-result {
+                border-radius: 0 0 $border-radius $border-radius;
+                border-top-style: dashed;
+            }
+        }
+    }
+    .change-delivery,
+    .change-droppoint {
+        font-weight: 600;
+        border: solid 2px $brand-color;
+        color: $brand-color;
+        background-color: #fff;
+        transition: all .2s ease-out;
+        &:hover {
+            color: #fff;
+            background-color: $brand-color;
+        }
+    }
+    .droppoint-search {
+        > .w-search,
+        > .w-zipcode {
+           border-radius: 0; 
+        }
+        > .w-zipcode {
+            border: none;
+            border-bottom: 2px solid $passive-color;
+        }
+    }
+    .droppoint-list {
+        border-radius: 0 0 $border-radius $border-radius;
+    }
+    .w-checkout-notification {
+        background: $brand-color;
+        border-radius: 0 0 $border-radius $border-radius;
+        color: #fff;
+    }
+    .modal-container .modal-content .w-checkout {
+        &-link {
+            color: $brand-color;
+        }
+        &-container-close > .fa {
+            background: $passive-color;
+        }
+        &-order .order {
+            border-radius: $border-radius;
+            border: solid 2px $passive-color;
+            &-summary {
+                &:not(.is-collapsed) {
+                    background-color: $passive-color;
+                    * {
+                        color: #fff;
+                    }
+                    .w-checkout-link {
+                        color: $brand-color;
+                    }
+                    + .order-total {
+                        background-color: $passive-color;
+                        > strong {
+                            color: #fff;
+                        }
+                    }
+                }
+                &.is-collapsed + .order-total:hover {
+                    background-color: $passive-color;
+                    > strong, span {
+                        color: #fff;
+                    }
+                }
+            } 
+        }
+    }
+}

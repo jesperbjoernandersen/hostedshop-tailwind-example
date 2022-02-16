@@ -1,0 +1,27 @@
+{
+    "PRESET_TITLE": "Rock",
+    "SETTINGS": {
+			"DESIGN_HEADER_BACKGROUND_COLOR": "#e5efef",
+			"DESIGN_NAVIGATION_BACKGROUND_COLOR": "#b6cbcc",
+			"DESIGN_NAVIGATION_FONT_COLOR": "#313f40",
+			"DESIGN_BODY_BACKGROUND_COLOR": "#ffffff",
+			"DESIGN_WRAPPER_BACKGROUND_COLOR": "",
+			"DESIGN_FOOTER_BACKGROUND_COLOR": "#e5efef",
+			"DESIGN_BOX_BACKGROUND_COLOR": "#e5efef",
+			"DESIGN_BORDER_COLOR": "#699394",
+			"FONT_COLOR_PRIMARY": "#313f3f",
+			"FONT_COLOR_HEADLINE": "#313f3f",
+			"FONT_COLOR_LINK": "#313f3f",
+			"BUTTON_PRIMARY_BACKGROUND_COLOR": "#699394",
+			"BUTTON_PRIMARY_FONT_COLOR": "#ffffff",
+			"BUTTON_DEFAULT_BACKGROUND_COLOR": "#e5efef",
+			"BUTTON_DEFAULT_FONT_COLOR": "#699394",
+			"PANEL_CALLOUT_COLOR": "#699394",
+			"PANEL_WARNING_COLOR": "#4e797a",
+			"PANEL_DANGER_COLOR": "#ab7f85",
+			"MODULE_RATING_COLOR": "#ffcc00",
+			"FONT_FAMILY_BASE": "'PT Sans', sans-serif|https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap",
+			"FONT_FAMILY_HEADLINE": "'Ubuntu', sans-serif|https://fonts.googleapis.com/css?family=Ubuntu:300,700&display=swap",
+			"LOGO_COLOR": "#333333"
+    }
+}

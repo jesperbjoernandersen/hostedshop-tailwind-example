@@ -1,0 +1,22 @@
+{
+    "TEMPLATE_AUTHOR": "System",
+    "TEMPLATE_DATE": "February 2019",
+    "TEMPLATE_NAME": {
+        "TITLE": {
+            "DK": "Print layout",
+            "UK": "Print layout",
+            "NO": "Utskriftsoppsett",
+            "SE": "Utskriftslayout"
+        }
+    },
+    "TEMPLATE_DESCRIPTION": {
+        "TITLE": {
+            "DK": "Standard print layout",
+            "UK": "Default print layout",
+            "NO": "Standard utskrift layout",
+            "SE": "Standardutskriftslayout"
+        }
+    },
+    "TEMPLATE_CONTEXT": "",
+    "TEMPLATE_VERSION": "Version 1.0"
+}

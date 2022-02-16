@@ -1,0 +1,58 @@
+@use "sass:math";
+
+// Keyframes
+
+@keyframes fadein {
+  0% { opacity: 0; }
+  100%   { opacity: 1; }
+}
+@keyframes fadeout {
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
+@keyframes fadescalein {
+  from { transform: scale(0); opacity: 0; }
+  to   { transform: scale(1); opacity: 1; }
+}
+@keyframes fadescaleout {
+  from { transform: scale(1); opacity: 1; }
+  to   { transform: scale(0); opacity: 0; }
+}
+@keyframes fadescale-in-out-delayed {
+  0%   { transform: scale(0); opacity: 0; }
+  15%  { opacity: 1; }
+  50%  { transform: scale(1); opacity: 0; }
+  75% { transform: scale(0); opacity: 0; }
+}
+
+
+// Animation components
+
+@mixin material-circles-animation($size: 16px,  $color: #333,  $duration: .4s,  $gap: 8px,  $align: null) {
+  position: relative;
+  width: ($size * 3) + ($gap * 2);
+  height: $size;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  > div {
+    transform: scale(0);
+    width: $size;
+    height: $size;
+    border-radius: 50%;
+    animation: fadescale-in-out-delayed $duration ease infinite;
+    animation-delay: math.div($duration, 5) * 2;
+    background-color: $color;
+    left: 0;
+    right: 0;
+    &:first-child {
+      animation-delay: math.div($duration, 5) * 1;
+      margin-right: $gap;
+    }
+    &:last-child {
+      animation-delay: math.div($duration, 5) * 3; 
+      margin-left: $gap;
+    }
+  }
+}

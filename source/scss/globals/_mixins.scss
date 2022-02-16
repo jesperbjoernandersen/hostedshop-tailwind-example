@@ -1,0 +1,49 @@
+// ==========================================================================
+// CSS3 mixins
+// ==========================================================================
+
+// Mixin: Border-radius. Emmulates Compass-style.org border-radius mixin.
+@mixin border-radius($radius: 5px) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+// Mixin: Box-shadow. Emmulates Compass-style.org box-shadow mixin.
+@mixin box-shadow($left: 0px, $top: 0px, $blur: 5px, $color: #333333, $inset:"") {
+    -webkit-box-shadow: $left $top $blur $color #{$inset};
+       -moz-box-shadow: $left $top $blur $color #{$inset};
+            box-shadow: $left $top $blur $color #{$inset};
+}
+
+// Get primary color from badges and notifications
+@mixin alerts-primary-color($prop, $color: #fff) {
+    $bgc: $color;
+
+    @if $color != "transparent" {
+        @if lightness($color) > 90% {
+            $color: darken($color, 40%);
+            $color: saturate($color, 40%);
+
+            @if lightness($color) - lightness($bgc) < 20% {
+                $color: darken($color, 20%);
+            }
+        } @else if lightness($color) < 45% {
+            $color: lighten($color, 40%);
+            $color: desaturate($color, 40%);
+
+            @if lightness($color) - lightness($bgc) < 20% {
+                $color: lighten($color, 20%);
+            }
+        } @else {
+            $color: darken($color, 20%);
+            $color: saturate($color, 20%);
+
+            @if lightness($color) - lightness($bgc) < 20% {
+                $color: darken($color, 20%);
+            }
+        }
+    }
+    #{$prop}: $color;
+}

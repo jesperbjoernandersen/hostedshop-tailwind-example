@@ -1,0 +1,48 @@
+.w-checkout-submit {
+    label {
+        font-weight: normal;
+    }
+    a {
+        white-space: nowrap;
+    }
+    .submit,
+    .terms {
+        margin-bottom: 8px;
+    }
+    .terms {
+        padding: 0 8px;
+        display: flex;
+        align-items: center;
+        label {
+            padding-left: 8px;
+        }
+        &-mpc {
+            margin: 0;
+            padding: 0px 4px;
+        }
+    }
+    .submit-button {
+        padding: 0;
+        display: flex;
+        margin: 0 auto;
+        width: auto;
+        position: relative;
+        > img {
+            margin: 0;
+            height: 36px;
+            &.w-checkout-disabled {
+                position: absolute;
+                transition: 0.1s ease-in all;
+                opacity: 0;
+            }    
+        }
+        &.button-disabled {
+            > .w-checkout-disabled {
+                opacity: 1;
+            }
+        }
+        label {
+            padding-left: 8px;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+
+// ==========================================================================
+// Thumbelina
+// ==========================================================================
+
+/* Add a border to the thumbnails. */
+.thumbelina li img {
+     border:1px solid $design-border-color;
+}
+
+/* Hover effect for the images */
+.thumbelina li img:hover {
+     border:1px solid $design-border-color;
+}
+
+.thumbelina-but {
+    @include theme-button($button-default-background-color, $button-default-font-color);
+}

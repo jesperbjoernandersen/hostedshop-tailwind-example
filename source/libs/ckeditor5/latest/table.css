@@ -1,0 +1,11 @@
+.ck-content .table {
+    width: auto !important;
+    margin: 0 auto;
+    display: table;
+}
+
+.ck-content .table > table {
+    border-spacing: 0;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,30 @@
+{
+    "PRESET_TITLE": "Nightshade",
+    "SETTINGS": {
+        "DESIGN_HEADER_BACKGROUND_COLOR": "#2c3e50",
+        "DESIGN_HEADER_FONT_COLOR": "#ffffff",
+        "DESIGN_NAVIGATION_BACKGROUND_COLOR": "#34495e",
+        "DESIGN_NAVIGATION_FONT_COLOR": "#ffffff",
+        "DESIGN_BODY_BACKGROUND_COLOR": "#34495e",
+        "DESIGN_WRAPPER_BACKGROUND_COLOR": "#2c3e50",
+        "DESIGN_FOOTER_BACKGROUND_COLOR": "#2c3e50",
+        "DESIGN_FOOTER_FONT_COLOR": "#ffffff",
+        "DESIGN_BOX_BACKGROUND_COLOR": "#2c3e50",
+        "DESIGN_BORDER_COLOR": "#2c3e50",
+        "DESIGN_IMAGE_BACKGROUND_COLOR": "#6b7f94",
+        "FONT_COLOR_PRIMARY": "#ffffff",
+        "FONT_COLOR_HEADLINE": "#ffffff",
+        "FONT_COLOR_LINK": "#ffffff",
+        "BUTTON_PRIMARY_BACKGROUND_COLOR": "#2ecc71",
+        "BUTTON_PRIMARY_FONT_COLOR": "#ffffff",
+        "BUTTON_DEFAULT_BACKGROUND_COLOR": "#2c3e50",
+        "BUTTON_DEFAULT_FONT_COLOR": "#ffffff",
+        "PANEL_CALLOUT_COLOR": "#6b7f94",
+        "PANEL_WARNING_COLOR": "#6b7f94",
+        "PANEL_DANGER_COLOR": "#ebccd1",
+        "MODULE_RATING_COLOR": "#ffcc00",
+        "FONT_FAMILY_BASE": "'Poppins', sans-serif|https:\/\/fonts.googleapis.com\/css?family=Poppins:400,700",
+        "FONT_FAMILY_HEADLINE": "'Poppins', sans-serif|https:\/\/fonts.googleapis.com\/css?family=Poppins:400,700",
+        "LOGO_COLOR": "#ffffff"
+    }
+}

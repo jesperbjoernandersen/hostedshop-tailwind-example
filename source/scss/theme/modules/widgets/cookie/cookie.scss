@@ -1,0 +1,44 @@
+.w-cookie-form {
+    background: $design-body-background-color;
+}
+.w-cookie-loader{
+    background-color: rgba($button-primary-font-color, 0.7);
+    opacity: 1;
+}
+.w-cookie-loader.is-hidden{
+    opacity: 0;
+}
+
+.svg-spinner {
+	fill: none;
+	stroke: $button-primary-background-color;
+	stroke-dasharray: 25;
+	stroke-dashoffset: 100;
+	stroke-linecap: round;
+	stroke-width: 2;
+	animation: dashSpinner .5s linear forwards;
+	animation-iteration-count: infinite;
+	margin: 0 auto;
+	padding: 1rem 0;
+	display: block;
+}
+
+.cookie-button.button-text-simple {
+    border: 0px;
+    border-bottom: 1px solid $design-border-color;
+    &:hover{
+        border-bottom: 1px solid darken($design-border-color, 0.25);
+    }
+}
+
+@keyframes dashSpinner {
+	to {
+		stroke-dashoffset: 50;
+	}
+}
+
+@media screen and (min-width: 768px) {
+    .w-cookie:not(.center){
+        background: $design-body-background-color;
+    }
+}

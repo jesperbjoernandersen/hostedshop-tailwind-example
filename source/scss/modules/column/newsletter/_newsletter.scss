@@ -1,0 +1,38 @@
+/*
+# Description
+
+## Date last modified: 2018-05-01
+
+*/
+
+.b-newsletter {
+	.b-newsletter-newsletter,
+	.b-newsletter-consent {
+		.input-group-addon,
+		.form-label.input-group-main {
+			background: transparent;
+			border: none;
+		}
+		.input-group-addon {
+			padding: 0 .25em 0 0;
+		}
+		.form-label.input-group-main {
+			padding: 0 .25em;
+		}
+		.form-input, 
+		.form-label.input-group-main {
+			&:hover {
+		    	background: transparent;
+		    }
+		} 
+		.input-group {
+			&:hover,
+			&:focus {
+				.input-group-main,
+				.input-group-addon {
+					background: none;
+				}
+			}
+		}
+	}
+}

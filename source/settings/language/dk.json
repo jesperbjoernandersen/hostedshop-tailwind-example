@@ -1,0 +1,41 @@
+{
+    "USP_SETTINGS_01_TEXT": {
+        "value": "Salgspointe 1"
+    },
+    "USP_SETTINGS_01_SUBTEXT": {
+        "value": "Lorem ipsum dolor sit amet"
+    },
+    "USP_SETTINGS_01_LINK": {
+        "value": "#"
+    },
+    "USP_SETTINGS_02_TEXT": {
+        "value": "Salgspointe 2"
+    },
+    "USP_SETTINGS_02_SUBTEXT": {
+        "value": "Lorem ipsum dolor sit amet"
+    },
+    "USP_SETTINGS_02_LINK": {
+        "value": "#"
+    },
+    "USP_SETTINGS_03_TEXT": {
+        "value": "Salgspointe 3"
+    },
+    "USP_SETTINGS_03_SUBTEXT": {
+        "value": "Lorem ipsum dolor sit amet"
+    },
+    "USP_SETTINGS_03_LINK": {
+        "value": "#"
+    },
+    "USP_SETTINGS_04_TEXT": {
+        "value": "Salgspointe 4"
+    },
+    "USP_SETTINGS_04_SUBTEXT": {
+        "value": "Lorem ipsum dolor sit amet"
+    },
+    "USP_SETTINGS_04_LINK": {
+        "value": "#"
+    },
+    "SEE_ALL": {
+        "value": "Se alle"
+    }
+}

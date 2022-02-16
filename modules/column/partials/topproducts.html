@@ -1,0 +1,25 @@
+<div class="spinner preloader text-center" ng-hide="loaded">
+	<img alt="" ng-src="{{::spinner}}">
+</div>
+<ol class="list-unstyled t-striped" ng-show="loaded">
+
+	<li ng-repeat="product in products">
+
+		<span class="is-block">
+
+			<span class="badge badge-clean pull-right" ng-bind="$index + 1"></span>
+
+			<a href="{{::product.Handle}}"><span ng-bind-html="::product.Title"></span></a>
+		</span>
+
+		<small class="is-block">
+
+			<p ng-bind-html="::product.DescriptionList"></p>
+		</small>
+
+		<span class="is-block" ng-if="::product.ShowPrices && product.Prices.length">
+
+			<strong ng-bind-html="::product.Prices[0].PriceMin | currency_format"></strong>
+		</span>
+	</li>
+</ol>

@@ -1,0 +1,24 @@
+/*
+# Description
+
+## Date last modified
+
+*/
+
+// From medium
+
+@include from(3) {
+	.m-cart {
+		.cart-total-value {
+			text-align: right;
+		}
+	}
+
+	.cart-utility-actions {
+		margin-bottom: 1em;
+	}
+}
+
+.m-cart-list {
+    margin-bottom: 0;
+}

@@ -1,0 +1,26 @@
+// Set charset
+@charset "UTF-8";
+
+// Module dependencies
+@import "compass";
+@import "breakpoint";
+@import "breakpoint-slicer";
+
+// Globals
+@import "../../../../../source/scss/globals/settings";
+
+// Color is hardcoded since we cant change much about the look of Klarna Checkout
+$fontColor: #303030;
+
+// General
+@import "checkout";
+
+// utils
+@import "loadingIndicator";
+
+// modules
+@import "cart";
+@import "steps";
+@import "usertype";
+@import "delivery";
+@import "payment";

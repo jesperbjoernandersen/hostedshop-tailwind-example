@@ -1,0 +1,49 @@
+/*
+# Description
+
+## Date last modified: 2018-04-30
+
+*/
+
+.consent-description {
+	font-style: italic;
+    font-size: .89em;
+}
+
+.form-label {
+	@include to(2) {
+		position: relative;
+	}
+	.tooltip {
+		@include from(2) {
+			position: relative;
+		}
+	    display: inline-block;
+	    .tooltiptext {
+		    visibility: hidden;
+		    text-align: left;
+		    padding: 5px;
+		    position: absolute;
+	    	z-index: 1;
+		    border-radius: 6px;
+		    width: 320px;
+		    margin-left: -160px;
+		    margin-bottom: 0.5em;
+		    @include to(4) {
+		    	width: 225px;
+		    	margin-left: -112.5px;
+		    }
+		    bottom: 100%;
+		    left: 50%;
+		    white-space: initial;
+
+		    background-color: white;
+		    color: inherit;
+		    border: 1px solid currentColor;
+		    font-family: sans-serif;
+		}
+		&:hover .tooltiptext {
+			visibility: visible;
+		} 
+	}
+}

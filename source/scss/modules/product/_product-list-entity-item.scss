@@ -1,0 +1,123 @@
+.angular-productlist {
+    min-height: 400px;
+}
+.categorylist + .angular-productlist {
+    min-height: 0;
+}
+.productItem {
+    margin-bottom: 3em;
+
+    .image {
+        position: relative;
+    }
+
+    .title {
+        margin-bottom: 1em;
+
+        h1,h2,h3,h4,h5,h6,
+        .h1,.h2,.h3,.h4,.h5,.h6 {
+            margin-bottom: .25em;
+        }
+    }
+
+    .product-delivery {
+        margin: 0 0 1em;
+
+    }
+
+    .paymentOption {
+        margin: 1.5em 0 .5em 0;
+    }
+
+    .variants {
+        margin-bottom: 1em;
+    }
+
+    .figure {
+        a, img {
+            display: block;
+        }
+    }
+
+    .description {
+        margin-bottom: 1em;
+    }
+
+    .productContent {
+        @include clearfix;
+
+        .separator:last-child {
+            margin-bottom: 0;
+        }
+
+        .image a {
+            display: block;
+        }
+    }
+
+    .product-price-terms {
+        font-size: .85em;
+    }
+
+    // type-col styling
+
+    .type-col {
+        .product-description {
+            margin-bottom: 1em;
+        }
+
+        .title,
+        .product-delivery,
+        .description,
+        .m-reviews-stars {
+            padding: 0 1em;
+        }
+
+        .product-transaction,
+        .product-action {
+            padding: 1em;
+        }
+
+    }
+
+    // type-row styling
+
+    .type-row {
+        .product-transaction {
+            padding: 1em;
+        }
+
+        .image img {
+            margin-bottom: 0;
+        }
+
+        .title,
+        .product-delivery,
+        .description,
+        .m-reviews-stars {
+            padding: 0 1em;
+        }
+
+        @include from (3) {
+            .title,
+            .product-delivery,
+            .description,
+            .m-reviews-stars {
+                padding: 1em 0;
+                margin: 0;
+            }
+        }
+
+        @include from (4) {
+            .m-productlist-offer {
+                &.l-default-height {
+                    .product-transaction {
+                        min-height: 293px;
+                        margin: 0;
+                        border-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}

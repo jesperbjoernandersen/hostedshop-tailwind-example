@@ -1,0 +1,46 @@
+.productfilter {
+
+    .multiple_select {
+
+        .checklist {
+            background: $design-body-background-color;
+            &-footer,
+            &-header {
+                border-color: $design-border-color;
+            }
+        }
+
+        .button {
+            background: $color-input-back-hover;
+            &:hover{
+                background-color: lighten($color-input-back-hover, 5%);
+            }
+        }
+
+        .checkbox {
+            input[type=checkbox] {
+                &:checked ~ .checkbox-checkmark {
+                    @include alerts-primary-color("background", $panel-warning-color);
+                    @include alerts-primary-color("border-color", $panel-warning-color);
+                }
+                &.is-disabled ~ .checkbox-checkmark,
+                &:disabled ~ .checkbox-checkmark{
+                    border-color: $color-input-color-disabled;
+                    background: $color-input-color-disabled;
+                }
+            }
+ 
+            &-checkmark {
+                border-color: $font-color-primary;
+                background-color: $design-body-background-color;
+                
+                &::after {
+                    border-color: $design-body-background-color;
+                }
+            }
+        }
+    }
+}
+
+
+

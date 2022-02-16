@@ -1,0 +1,48 @@
+.productsortbar {
+  .sortbar-body {
+    .form-group {
+      margin: 0;
+    }
+    .form-input {
+      white-space: nowrap;
+      font-weight: 400;
+      @media (min-width: 768px) {
+        font-size: 14px;
+        border: none;
+        > select {
+          border: none;
+          font-weight: 600;
+          padding-right: 1.75em;
+          padding-left: 0.25em;
+        }
+        &::after {
+          font-family: FontAwesome;
+          content: "\f078";
+          margin-left: -2em;
+          padding-left: 0.5em;
+          pointer-events: none;
+        }
+      }
+    }
+  }
+  .productlist-display.xsmall .input-group-button {
+    width: 28px
+  }
+  .productlist-display .input-group-button {
+    display: inline-block !important;
+    width: 40px;
+    > .button {
+      background-color: transparent;
+    }
+  }
+  .amount-display {
+    line-height: 32px;
+  }
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    &::-ms-expand {
+      display: none;
+    }
+  }
+}

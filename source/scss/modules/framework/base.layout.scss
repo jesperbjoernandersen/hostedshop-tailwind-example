@@ -1,0 +1,165 @@
+@use "sass:math";
+
+/*
+# Description
+General layout for print template
+
+## Date last modified
+20.09.2018
+
+*/
+
+
+
+//
+// Variables
+// -----------------------------------------------------------------------------
+$page: 700px;
+$spacing: 12px;
+$spacingLarge: 18px;
+$spacingSmall: 6px;
+
+
+
+//
+// Wrapper
+// -----------------------------------------------------------------------------
+.container {
+    width: 100%;
+    max-width: $page - (2 * $spacingSmall);
+}
+
+
+
+//
+// Helpers
+// -----------------------------------------------------------------------------
+.is-center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+// floats
+.pull-right {
+    float: right !important;
+}
+.pull-left {
+    float: left !important;
+}
+
+
+
+// Spacing
+.has-no-margin {
+    margin: 0;
+}
+.has-margin {
+    margin: $spacing;
+}
+.has-margin--small {
+    margin: $spacingSmall;
+}
+.has-margin--top {
+    margin-top: $spacing;
+}
+.has-margin--top-small {
+    margin-top: $spacingSmall;
+}
+.has-margin--top-large {
+    margin-top: $spacingLarge;
+}
+.has-margin--bottom {
+    margin-bottom: $spacing;
+}
+.has-margin--bottom-small {
+    margin-bottom: $spacingSmall;
+}
+.has-margin--bottom-large {
+    margin-bottom: $spacingLarge;
+}
+.has-margin--sides {
+    margin-left: $spacing;
+    margin-right: $spacing;
+}
+.has-margin--sides-small {
+    margin-left: $spacingSmall;
+    margin-right: $spacingSmall;
+}
+.has-margin--sides-large {
+    margin-left: $spacingLarge;
+    margin-right: $spacingLarge;
+}
+.has-no-padding {
+    padding: 0;
+}
+.has-padding {
+    padding: $spacing;
+}
+.has-padding--small {
+    padding: $spacingSmall;
+}
+.has-padding--large {
+    padding: $spacingLarge;
+}
+.has-padding--top {
+    padding-top: $spacing;
+}
+.has-padding--top-small {
+    padding-top: $spacingSmall;
+}
+.has-padding--top-large {
+    padding-top: $spacingLarge;
+}
+.has-padding--bottom {
+    padding-bottom: $spacing;
+}
+.has-padding--bottom-small {
+    padding-bottom: $spacingSmall;
+}
+.has-padding--bottom-large {
+    padding-bottom: $spacingLarge;
+}
+.has-padding--sides {
+    padding-left: $spacing;
+    padding-right: $spacing;
+}
+.has-padding--sides-small {
+    padding-left: $spacingSmall;
+    padding-right: $spacingSmall;
+}
+.has-padding--sides-large {
+    padding-left: $spacingLarge;
+    padding-right: $spacingLarge;
+}
+.has-padding--tiny {
+    padding: math.div($spacingSmall, 2);
+}
+.has-padding--top-tiny {
+    padding-top: math.div($spacingSmall, 2);
+}
+.has-padding--bottom-tiny {
+    padding-bottom: math.div($spacingSmall, 2);
+}
+.has-padding--right-tiny {
+    padding-right: math.div($spacingSmall, 2);
+}
+.has-padding--left-tiny {
+    padding-left: math.div($spacingSmall, 2);
+}
+
+
+
+// tables
+.table--full {
+    width: 100%;
+}
+.table--reset {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.table--fluid {
+    table-layout: auto;
+}

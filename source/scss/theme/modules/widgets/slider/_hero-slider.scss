@@ -1,0 +1,47 @@
+
+// ==========================================================================
+// Hero slider
+// ==========================================================================
+
+.owl-page{
+
+    span{
+        background-color: #cfcfcf;
+    }
+}
+.owl-page.active span,
+.clickable .owl-page:hover span {
+    background-color: #454545;
+}
+
+.owl-controls .owl-buttons .owl-next,
+.owl-controls .owl-buttons .owl-prev {
+	color: #cfcfcf;
+
+	&:hover {
+		color: #454545;
+	}
+}
+
+.hero-slider-theme {
+
+	.item-title p,
+	.item-title span,
+	.item-text p,
+	.item-text span {
+		display: inline-block;
+		color: #FFFFFF;
+	}
+
+	.item-link .button-text {
+	    color: #FFFFFF;
+	    font-family: $font-family-headline;
+	}
+
+	.item-caption {
+		background: rgba(0,0,0,.6);
+		text-align: center;
+		color: #fff;
+	}
+
+}

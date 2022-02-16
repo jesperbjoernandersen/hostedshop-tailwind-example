@@ -1,0 +1,22 @@
+{
+    "TEMPLATE_AUTHOR": "System",
+    "TEMPLATE_DATE": "February 2019",
+    "TEMPLATE_NAME": {
+        "TITLE": {
+            "DK": "Standardindhold med ordreoplysninger",
+            "UK": "Standard content with order information",
+            "NO": "Standardinnhold med bestillingsinformasjon",
+            "SE": "Standardinnehåll med orderinformation"
+        }
+    },
+    "TEMPLATE_DESCRIPTION": {
+        "TITLE": {
+            "DK": "Denne e-mail template viser ordren sammen med indholdet.",
+            "UK": "This email template will display the customer's order after the content.",
+            "NO": "Denne malen viser orderen sammen med innholdet.",
+            "SE": "Den här e-postmallen visar kundens order efter innehållet."
+        }
+    },
+    "TEMPLATE_CONTEXT": "ORDER",
+    "TEMPLATE_VERSION": "Version 1.0"
+}

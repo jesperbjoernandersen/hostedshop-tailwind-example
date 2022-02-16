@@ -1,0 +1,30 @@
+{
+    "PRESET_TITLE": "Harenae",
+    "SETTINGS": {
+        "DESIGN_HEADER_BACKGROUND_COLOR": "#f7f1e3",
+        "DESIGN_HEADER_FONT_COLOR": "#000000",
+        "DESIGN_NAVIGATION_BACKGROUND_COLOR": "#f7f1e3",
+        "DESIGN_NAVIGATION_FONT_COLOR": "#000000",
+        "DESIGN_BODY_BACKGROUND_COLOR": "#fffbf2",
+        "DESIGN_WRAPPER_BACKGROUND_COLOR": "#f7f1e3",
+        "DESIGN_FOOTER_BACKGROUND_COLOR": "#f7f1e3",
+        "DESIGN_FOOTER_FONT_COLOR": "#000000",
+        "DESIGN_BOX_BACKGROUND_COLOR": "#f7f1e3",
+        "DESIGN_BORDER_COLOR": "#f7f1e3",
+        "DESIGN_IMAGE_BACKGROUND_COLOR": "",
+        "FONT_COLOR_PRIMARY": "#000000",
+        "FONT_COLOR_HEADLINE": "#000000",
+        "FONT_COLOR_LINK": "#000000",
+        "BUTTON_PRIMARY_BACKGROUND_COLOR": "#2ecc71",
+        "BUTTON_PRIMARY_FONT_COLOR": "#ffffff",
+        "BUTTON_DEFAULT_BACKGROUND_COLOR": "#f0e4c8",
+        "BUTTON_DEFAULT_FONT_COLOR": "#000000",
+        "PANEL_CALLOUT_COLOR": "#f0e4c8",
+        "PANEL_WARNING_COLOR": "#f0e4c8",
+        "PANEL_DANGER_COLOR": "#ab7f85",
+        "MODULE_RATING_COLOR": "#ffcc00",
+        "FONT_FAMILY_BASE": "'Poppins', sans-serif|https:\/\/fonts.googleapis.com\/css?family=Poppins:400,700",
+        "FONT_FAMILY_HEADLINE": "'Poppins', sans-serif|https:\/\/fonts.googleapis.com\/css?family=Poppins:400,700",
+        "LOGO_COLOR": "#313f40"
+    }
+}

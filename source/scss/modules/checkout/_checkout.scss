@@ -1,0 +1,100 @@
+/*
+# Description
+
+## Date last modified
+2021-08-05
+
+*/
+
+.m-checkout {
+
+	.step2, .step3, .step4 {
+
+		label {
+			font-weight: normal;
+		}
+	}
+
+	.step2 {
+
+		.deliveryMethodName {
+			font-weight: 700;
+		}
+	}
+
+	.step3 {
+
+		.packingTypeTitle {
+			font-weight: 700;
+		}
+	}
+
+	.step4 {
+
+		.paymentMethodTitle {
+			font-weight: 700;
+		}
+
+		.paymentMethodDescription {
+		}
+
+		.showOnClick {
+			cursor: default;
+		}
+	}
+
+	.step5 {
+
+		.orderLine {
+
+			&.l-orderline-hidden-info {
+				padding: 0.5em;
+			}
+		}
+	}
+
+	.DroppointAddressContainer {
+		.DroppointAddressToggle {
+			.is--opened {
+				display: none;
+			}
+			&.is--toggled {
+				.is--opened {
+					display: inline;
+				}
+				.is--closed {
+					display: none;
+				}
+			}
+		}
+		.m-address {
+			width: 68%;
+		}
+		.m-zipcode {
+			width: 30%;
+		}
+	}
+
+	.m-checkout-customer-type > .button-group {
+		display: -ms-flexbox;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.25em;
+		align-content: stretch;
+		> .button,
+		> .button-primary {
+			position: relative;
+			flex: 1;
+			width: 100%;
+			> input {
+				display: none;
+			}
+		}
+		&:before,
+		&:after {
+			content: none;
+		}
+	}
+}
+
+

@@ -1,0 +1,169 @@
+.w-checkout-usertype__list--wrap {
+  margin-bottom: 2em;
+}
+
+.w-checkout-usertype {
+  .title {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+
+    .w-checkout-steps__tabitem__title {
+      flex-grow: 1;
+      margin: 0;
+    }
+  }
+
+  .w-checkout-usertype__login-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover .w-checkout-usertype__login-button-text {
+      border-bottom: 2px solid transparent;
+    }
+  }
+
+  .w-checkout-usertype__login-button-icon {
+    height: 20px;
+    width: 20px;
+    line-height: inherit !important;
+    vertical-align: top;
+  }
+
+  .w-checkout-usertype__login-button-text {
+    display: inline-block;
+    margin-left: 0.5em;
+    border-bottom: 2px solid currentColor;
+    transition: 0.25s ease;
+  }
+
+  &.w-checkout-steps__step--is-user .stepBox {
+    width: auto;
+  }
+
+  &.w-checkout-steps__step--is-user .m-checkout-logout + hr {
+    display: none;
+  }
+
+  .contactInfoContainer {
+    .input-group {
+      padding-bottom: 0.5em;
+    }
+
+    .form-group {
+      margin-bottom: 1em;
+
+      &:last-child {
+        margin-bottom: 0.5em;
+      }
+
+      .input-group:last-child {
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  .newsletterContainer,
+  .interestsContainer,
+  .createUserContainer,
+  .giftWrappingContainer {
+    margin-bottom: 2em;
+
+    .input-group {
+      padding-bottom: 0.5em;
+    }
+
+    .form-group {
+      margin-bottom: 1em;
+
+      &:last-child {
+        margin-bottom: 0.5em;
+      }
+
+      .input-group:last-child {
+        padding-bottom: 0;
+      }
+    }
+
+    .input-group-addon {
+      padding: 0.75em 0;
+      line-height: 1;
+      min-width: 1.5em;
+    }
+
+    .input-group-addon,
+    .form-label.input-group-main {
+      border-width: 0;
+      background-color: inherit;
+    }
+  }
+
+  .giftWrappingOption {
+    float: left;
+    width: 50%;
+
+    + .giftWrappingOption .input-group-addon {
+      vertical-align: top;
+    }
+  }
+}
+
+
+.w-checkout-usertype__list {
+  display: flex;
+  max-width: 70%;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.w-checkout-usertype__item {
+  flex-grow: 1;
+  margin: 1em 0;
+}
+
+.w-checkout-usertype__label {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+
+  & input {
+    position: absolute;
+    left: -9999px;
+  }
+}
+
+.w-checkout-usertype__text:hover,
+.w-checkout-usertype__label input:checked + .w-checkout-usertype__text {
+  background-color: #cfcfcf;
+}
+
+.w-checkout-usertype__label input:checked + .w-checkout-usertype__text:before {
+  background-color: $fontColor;
+}
+
+.w-checkout-usertype__text {
+  display: flex;
+  align-items: center;
+  padding: 0.375em 0.75em 0.375em 0.375em;
+  border-radius: 99em;
+  transition: 0.25s ease;
+
+  &:before {
+    display: flex;
+    flex-shrink: 0;
+    content: "";
+    background-color: #fff;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    margin-right: 0.375em;
+    transition: 0.25s ease;
+    box-shadow: inset 0 0 0 0.125em $fontColor;
+  }
+}

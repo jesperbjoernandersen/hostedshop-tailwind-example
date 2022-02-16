@@ -1,0 +1,4 @@
+.g-recaptcha-small {
+    transform-origin: left;
+    transform: scale(0.8);
+}

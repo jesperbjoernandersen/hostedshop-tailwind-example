@@ -1,0 +1,19 @@
+.switch-rail {
+    background-color: $button-default-font-color;
+    box-shadow: inset 0px 0px 3px 1px darken($button-default-font-color, 15%);
+}
+
+.switch-rail:before {
+    background-color: $button-default-background-color;
+    box-shadow: 0 0 0 3px * 8px darken($button-default-font-color, 30%), 0 0 0 3px * 8px inset darken($button-default-font-color, 30%);
+}
+
+input:checked + .switch-rail {
+  background-color: $panel-callout-color;
+  box-shadow: inset 0px 0px 3px 1px darken($panel-callout-color, 15%);
+}
+
+input:checked + .switch-rail:before {
+  background-color: $design-body-background-color;
+  box-shadow: 0 0 0 3px * 8px darken($panel-callout-color, 30%), 0 0 0 3px * 8px inset darken($panel-callout-color, 30%);
+}

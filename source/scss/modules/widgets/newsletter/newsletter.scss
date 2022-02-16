@@ -1,0 +1,52 @@
+/*
+# Description
+Newsletter widget and consent styling
+
+## Date last modified: 2018-05-01
+
+*/
+
+.w-newsletter-type-label {
+	.pageTypenewsletter &,
+	.b-newsletter & {
+		font-weight: bold;
+	}
+}
+
+.w-newsletter-type-description {
+	.w-newsletter-type-text {
+		font-size: .875em;
+	}
+}
+
+.w-newsletter-signup {
+	.m-newsletter-newsletter,
+	.m-newsletter-consent {
+		.input-group-addon,
+		.form-label.input-group-main {
+			background: transparent;
+			border: none;
+		}
+		.input-group-addon {
+			padding: 0 .25em 0 0;
+		}
+		.form-label.input-group-main {
+			padding: 0 .25em;
+		}
+		.form-input, 
+		.form-label.input-group-main {
+			&:hover {
+		    	background: transparent;
+		    }
+		} 
+		.input-group {
+			&:hover,
+			&:focus {
+				.input-group-main,
+				.input-group-addon {
+					background: none;
+				}
+			}
+		}
+	}
+}
